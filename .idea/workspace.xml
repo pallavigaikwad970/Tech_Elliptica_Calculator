@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aadac6f-71eb-4431-a504-b0c86abef9ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/input.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/Addition.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/Multiplication.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/divide.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/sign.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/substraction.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/modules/CalculatorModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pageobject/CalculatorScreenPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WebAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WebVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdef/StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Index.html" afterDir="false" />
+    <list default="true" id="5aadac6f-71eb-4431-a504-b0c86abef9ec" name="Changes" comment="Level 1 Framework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/modules/CalculatorModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/modules/CalculatorModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/StepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +17,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pallavigaikwad970"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pallavigaikwad970&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pallavigaikwad970/Tech_Elliptica_Calculator.git",
-    "accountId": "50dd9a07-0e35-4c7e-94a1-31cce7d6523a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pallavigaikwad970/Tech_Elliptica_Calculator.git&quot;,
+    &quot;accountId&quot;: &quot;50dd9a07-0e35-4c7e-94a1-31cce7d6523a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2imdwxH8lBP9ikYGN8S8T8LEyYl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,7 +54,7 @@
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "level__2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Tech_Elliptica_Calculator/src/main/java/org/modules",
     "onboarding.tips.debug.path": "E:/Tech_Elliptica_Calculator/src/main/java/org/example/Main.java",
@@ -87,6 +71,28 @@
       <recent name="E:\Tech_Elliptica_Calculator" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tech_Elliptica_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testrunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testrunner" />
+      <option name="MAIN_CLASS_NAME" value="testrunner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,10 +102,21 @@
       <option name="presentableId" value="Default" />
       <updated>1720099934905</updated>
     </task>
+    <task id="LOCAL-00001" summary="Level 1 Framework">
+      <option name="closed" value="true" />
+      <created>1720102622582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720102622598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Level 1 Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level 1 Framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
