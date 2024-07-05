@@ -38,7 +38,6 @@ public class StepDef {
             logger.error("Error opening the browser: {}", e.getMessage(), e);
         }
     }
-    //   @add_interferring number
     @When("the user enters the {int} interfering number")
     public void the_user_enters_the_interfering_number(Integer int1) throws Exception {
         String strNum = String.valueOf(int1);
@@ -75,7 +74,6 @@ public class StepDef {
         logger.info("Expected result: {}, Actual result: {}", expectedResult, actualResult);
 
     }
-    //for @add_negative
     @When("the user enters the {int} number")
     public void the_user_enters_the_number(Integer int1) throws Exception {
         String strNum1 = String.valueOf(int1);

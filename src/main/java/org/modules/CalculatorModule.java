@@ -135,8 +135,6 @@ public class CalculatorModule {
         }
         buttonElement.click();
     }
-
-
     public int getResult() {
         WebElement resultFieldElement = driver.findElement(btn_result);
         String resultText = resultFieldElement.getText().replaceAll("[^\\d]", ""); // Remove non-numeric characters
@@ -144,7 +142,6 @@ public class CalculatorModule {
         logger.debug("Result obtained: {}", result);
         return result;
     }
-
     public boolean isEnabled(By by) {
         return driver.findElement(by).isEnabled();
     }
@@ -157,7 +154,7 @@ public class CalculatorModule {
         return driver.findElement(by).getText().contains("+");
     }
 
-    public boolean verifyButton(String buttonType)throws InvalidCalculatorNumberException  {
+    public boolean verifyButton(String buttonType)  {
         WebElement buttonElement = null;
         switch (buttonType) {
             case "add":
