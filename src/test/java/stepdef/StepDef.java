@@ -47,7 +47,6 @@ public class StepDef {
         logger.debug("Number entered: {}", int1);
 
     }
-
     @And("user hit {string} operator")
     public void userHitOperator(String arg0)throws Exception {
         if(arg0.equals("+")){
@@ -60,19 +59,16 @@ public class StepDef {
             calculatorModule.clickButton("div");
         }
     }
-
     @When("the user hit the equals {string} button")
     public void the_user_hit_the_equals_button(String buttontype) throws Exception {
         logger.debug("Clicking the equals button: {}", buttontype);
         calculatorModule.clickButton("equals");
     }
-
     @Then("the result {int} should be display")
     public void the_result_should_be_display(int expectedResult) throws Exception {
         int actualResult = calculatorModule.getResult();
         assert actualResult == expectedResult : "Expected result: " + expectedResult + ", but found: " + actualResult;
         logger.info("Expected result: {}, Actual result: {}", expectedResult, actualResult);
-
     }
     @When("the user enters the {int} number")
     public void the_user_enters_the_number(Integer int1) throws Exception {
@@ -87,10 +83,8 @@ public class StepDef {
     }
     @When("the user looks at the plus sign")
     public void the_user_looks_at_the_plus_sign() {
-
         logger.info("User looks at the plus sign");
     }
-
     @Then("the user should see and be able to click the plus sign")
     public void the_user_should_see_and_be_able_to_click_the_plus_sign() throws Exception {
         assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_addition));
@@ -99,7 +93,6 @@ public class StepDef {
         calculatorModule.clickButton("add");
         logger.info("Plus sign is visible and clickable");
         logger.info("Clicked the plus sign");
-
     }
 
     @When("the user looks at the minus sign")

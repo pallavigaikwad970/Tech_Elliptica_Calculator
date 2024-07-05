@@ -68,7 +68,6 @@ public class CalculatorModule {
      * with an appropriate error message.
      * Finally, it clicks on the identified button element using buttonElement.click().
      */
-
     public void clickButton(String buttonType) throws InvalidCalculatorNumberException {
         WebElement buttonElement;
         switch(buttonType) {
