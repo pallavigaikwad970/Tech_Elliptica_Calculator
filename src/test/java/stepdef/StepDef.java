@@ -4,17 +4,19 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.modules.CalculatorModule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utils.PropertiesReader;
+import utils.WebAction;
+import utils.WebVerification;
+
 import java.time.Duration;
 import java.util.Objects;
 import static java.lang.Integer.parseInt;
-import static org.junit.Assert.assertTrue;
-import static org.pageobject.CalculatorScreenPageObject.*;
 
 public class StepDef {
 
@@ -22,12 +24,11 @@ public class StepDef {
     public WebDriver driver;
     public CalculatorModule calculatorModule;
 
+
     @Given("the calculator application is open")
     public void the_calculator_application_is_open() {
         try {
-            String driverPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
-            logger.info("Browser opened successfully.");
-            System.setProperty("webdriver.chrome.driver", driverPath);
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -87,8 +88,6 @@ public class StepDef {
     }
     @Then("the user should see and be able to click the plus sign")
     public void the_user_should_see_and_be_able_to_click_the_plus_sign() throws Exception {
-        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_addition));
-        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_addition));
         calculatorModule.verifyButton("add");
         calculatorModule.clickButton("add");
         logger.info("Plus sign is visible and clickable");
@@ -102,8 +101,6 @@ public class StepDef {
 
     @Then("the user should see and be able to click the minus sign")
     public void theUserShouldSeeAndBeAbleToClickTheMinusSign() throws Exception {
-        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_minus));
-        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_minus));
         calculatorModule.verifyButton("sub");
         calculatorModule.clickButton("sub");
         logger.info("minus sign is visible and clickable");
@@ -117,8 +114,6 @@ public class StepDef {
 
     @Then("the user should see and be able to click the multiply sign")
     public void theUserShouldSeeAndBeAbleToClickTheMultiplySign() throws Exception {
-        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_multiply));
-        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_multiply));
         calculatorModule.verifyButton("mul");
         calculatorModule.clickButton("mul");
         logger.info("multiplicaion sign is visible and clickable");
@@ -132,8 +127,6 @@ public class StepDef {
 
     @Then("the user should see and be able to click the divide sign")
     public void theUserShouldSeeAndBeAbleToClickTheDivideSign() throws Exception {
-        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_division));
-        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_division));
         calculatorModule.verifyButton("div");
         calculatorModule.clickButton("div");
         logger.info("Division sign is visible and clickable");
@@ -147,8 +140,6 @@ public class StepDef {
 
     @Then("the user should see and be able to click the equals sign")
     public void theUserShouldSeeAndBeAbleToClickTheEqualsSign() throws Exception {
-        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_equals));
-        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_equals));
         calculatorModule.verifyButton("equals");
         calculatorModule.clickButton("equals");
         logger.info("equals sign is visible and clickable");
@@ -161,10 +152,10 @@ public class StepDef {
         try{
             driver.close();
             driver.quit();
+            logger.info("WebDriver closed successfully.");
         }catch(Exception e){
-
+            logger.error(e.getMessage());
         }
     }
-
 }
 

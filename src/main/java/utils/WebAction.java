@@ -21,9 +21,13 @@ public class WebAction {
             return false;
         }
     }
-
     public WebElement getElement(By by){
         return  driver.findElement(by);
     }
-
+        public boolean isElementEnabled(WebElement element) {
+        return element.isEnabled();
+    }
+    public boolean isElementDisplayed(WebElement element) {
+        return element.isDisplayed();
+    }
 }

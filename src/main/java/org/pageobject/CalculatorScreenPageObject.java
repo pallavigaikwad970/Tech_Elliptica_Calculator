@@ -12,6 +12,11 @@ public class CalculatorScreenPageObject {
         logger.debug("Calculator Screen Page Object initialized.");
     }
 
+    public static By btnXpath(String value){
+        String xpath = ("//input[@value='%s']");
+        return By.xpath(String.format(xpath,value));
+    }
+
     public static By btn_result = By.xpath("//*[@id='actions']");
     public static By btn_clear = By.xpath("//input [@value='c']");
     public static By btn_1 = By.xpath("//input[@value='1']");
@@ -30,5 +35,4 @@ public class CalculatorScreenPageObject {
     public static By btn_dot = By.xpath("//input[@value='.']");
     public static By btn_equals = By.xpath("//input[@value ='=']");
     public static By btn_addition = By.xpath("//input[@value='+']");
-
 }

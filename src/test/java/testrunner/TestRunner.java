@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "features",
         glue = "stepdef",
         dryRun = false,
-        tags = "@add_interfering",
+        tags = "@smoke",
         plugin = { "pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         }
