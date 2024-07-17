@@ -5,17 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aadac6f-71eb-4431-a504-b0c86abef9ec" name="Changes" comment="update errors">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/enums/ActionButtonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorResultException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatoreOperatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Calculator/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorBtnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorRessultException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Addition.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Addition.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Multiplication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Multiplication.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/divide.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/divide.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/substraction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/substraction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/enums/ActionButtonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/enums/ActionButtonEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatorResultException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatoreOperatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exception/InvalidCalculatoreOperatorException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/modules/CalculatorModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/modules/CalculatorModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pageobject/CalculatorScreenPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pageobject/CalculatorScreenPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/WebAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WebAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/StepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Calculator/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Calculator/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -61,30 +78,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JUnit.TestRunner.executor": "Run",
-    "Maven.Tech_Elliptica_Calculator [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "level__2",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Tech_Elliptica_Calculator",
-    "onboarding.tips.debug.path": "E:/Tech_Elliptica_Calculator/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: divide.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Tech_Elliptica_Calculator [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;level__2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Tech_Elliptica_Calculator&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Tech_Elliptica_Calculator/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Tech_Elliptica_Calculator\src\main\java\org\modules" />
@@ -92,7 +110,26 @@
       <recent name="E:\Tech_Elliptica_Calculator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: divide" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/divide.feature" />
+      <option name="GLUE" value="stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Tech_Elliptica_Calculator" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: divide" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tech_Elliptica_Calculator" />
       <extension name="coverage">
@@ -111,6 +148,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: divide" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720184032490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update errors">
+      <option name="closed" value="true" />
+      <created>1720532108380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720532108380</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

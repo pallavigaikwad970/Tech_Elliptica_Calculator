@@ -1,19 +1,23 @@
 package stepdef;
+
 import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.exception.InvalidCalculatorRessultException;
+import org.exception.InvalidCalculatoreOperatorException;
 import org.modules.CalculatorModule;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utils.PropertiesReader;
-import utils.WebAction;
-import utils.WebVerification;
-
 import java.time.Duration;
 import java.util.Objects;
 import static java.lang.Integer.parseInt;
@@ -23,13 +27,15 @@ public class StepDef {
     private static final Logger logger = LoggerFactory.getLogger(StepDef.class);
     public WebDriver driver;
     public CalculatorModule calculatorModule;
-
-
     @Given("the calculator application is open")
     public void the_calculator_application_is_open() {
         try {
+            logger.info("Opening Chrome browser...");
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
+            logger.info("Chrome browser opened successfully.");
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
             driver.get(Objects.requireNonNull(PropertiesReader.getEndPoint()).getProperty("url"));
@@ -50,6 +56,7 @@ public class StepDef {
     }
     @And("user hit {string} operator")
     public void userHitOperator(String arg0)throws Exception {
+        logger.info("User hitting operator:");
         if(arg0.equals("+")){
             calculatorModule.clickButton("add");
         }else if (arg0.equals("-")) {
@@ -59,25 +66,39 @@ public class StepDef {
         }else if (arg0.equals("/")) {
             calculatorModule.clickButton("div");
         }
+        else {
+            logger.error("Unsupported operator: ");
+            throw new InvalidCalculatoreOperatorException("Unsupported operator: ");
+        }
     }
     @When("the user hit the equals {string} button")
     public void the_user_hit_the_equals_button(String buttontype) throws Exception {
-        logger.debug("Clicking the equals button: {}", buttontype);
-        calculatorModule.clickButton("equals");
-    }
+            logger.debug("Clicking the equals button: {}", buttontype);
+            calculatorModule.clickButton("equals");
+        }
     @Then("the result {int} should be display")
     public void the_result_should_be_display(int expectedResult) throws Exception {
-        int actualResult = calculatorModule.getResult();
-        assert actualResult == expectedResult : "Expected result: " + expectedResult + ", but found: " + actualResult;
+            int actualResult = calculatorModule.getResult();
+            assert actualResult == expectedResult : "Expected result: " + expectedResult + ", but found: " + actualResult;
+            logger.info("Expected result: {}, Actual result: {}", expectedResult, actualResult);
+
+    }
+    @Then("the result {string} should be display")
+    public void the_result_string_should_be_display(String expectedResult) throws Exception {
+        String actualResult = calculatorModule.getErrorResult();
+        assert actualResult.equals(expectedResult) : "Expected result: " + expectedResult + ", but found: " + actualResult;
         logger.info("Expected result: {}, Actual result: {}", expectedResult, actualResult);
     }
     @When("the user enters the {int} number")
     public void the_user_enters_the_number(Integer int1) throws Exception {
+        logger.info("Entering number: " + int1);
         String strNum1 = String.valueOf(int1);
         for (char c1 : strNum1.toCharArray()) {
             if (c1 == '-') {
+                logger.info("Clicking subtraction button");
                 calculatorModule.clickButton("sub");
             } else {
+                logger.info("Entering digit: " + c1);
                 calculatorModule.enterNumber(parseInt(String.valueOf(c1)));
             }
         }
@@ -146,16 +167,22 @@ public class StepDef {
         logger.info("Clicked the equals sign");
     }
 
-
     @After
-    public void teardown(){
-        try{
-            driver.close();
-            driver.quit();
-            logger.info("WebDriver closed successfully.");
-        }catch(Exception e){
-            logger.error(e.getMessage());
+    public void tearDown(Scenario scenario) {
+        try {
+            if (scenario.isFailed()) {
+                String screenshotName = scenario.getName();
+                TakesScreenshot ts = (TakesScreenshot) driver;
+                byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+                scenario.attach(screenshot, "image/png", screenshotName);
+                scenario.log("Screenshot taken for failure scenario: " + screenshotName);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (driver != null) {
+                driver.quit(); // Close the WebDriver instance
+            }
         }
     }
 }
-

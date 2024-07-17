@@ -4,18 +4,18 @@ Feature: Addition of Numbers
     Given the calculator application is open
 
    @sanity @add_interfering
-  Scenario Outline: Check whether the calculator can perform addition for two interfering number <First> and <Second>
+  Scenario Outline: Check whether the calculator can perform addition for two interfering number for <TestcaseName>
      When the user enters the <First> interfering number
      And user hit "+" operator
      And the user enters the <Second> interfering number
      And the user hit the equals "=" button
      Then the result <Result> should be display
   Examples:
-    | First | Second | Result |
-    | 555   | 666    | 1221   |
-    | 7777  | 0      | 7777   |
-    | 0     | 2222   | 2222   |
-    | 0     | 0      | 0      |
+    | First | Second | Result |TestcaseName   |
+    | 555   | 666    | 1221   |For 555 and 666|
+    | 7777  | 0      | 7777   |For 7777 and 0 |
+    | 0     | 2222   | 2222   |For 0 and 2222 |
+    | 0     | 0      | 0      |For 0 and 0    |
 
       @sanity @add_positive
       Scenario Outline: To verify if the calculator can correctly add two Positive numbers for <TestcaseName>

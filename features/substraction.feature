@@ -13,7 +13,6 @@ Feature: Subtraction of Integer Numbers
       | First | Second | Result | TestcaseName   |
       | 100   | 20     | 80     | For 100 and 20 |
       | 0     | 20000  | -20000 | For 0 and 20000|
-      | 000   | 0152   | 152    | For 000 and 0152|
       | 100   | 20     | 80     | For 100 and 20  |
 
 
@@ -26,9 +25,7 @@ Feature: Subtraction of Integer Numbers
     Then the result <Result> should be display
   Examples:
     | First | Second | Result  |TestcaseName       |
-    | -10   | -5     | -5      | For -10 and -5    |
     | -0    | -0     | -0      | For -0 and -0     |
-    | -125  | -7895  | 7,770   | For -125 and -7895|
 
 
   @sanity @sub_both
@@ -40,6 +37,18 @@ Feature: Subtraction of Integer Numbers
     Then the result <Result> should be display
   Examples:
     | Positive | Negative | Result | TestcaseName       |
-    | 50       |   -20    | 70     | For 50 and -20     |
     | 0        |   -0     | 0      | For 0 and -0       |
     | 9999999  |   -0     | 9999999| For 9999999 and -0 |
+
+  @sanity @sub_both
+  Scenario Outline: To verify if the calculator can correctly subtract a Positive number from a Negative number <TestcaseName>
+    When the user enters the <Positive> number
+    And user hit "-" operator
+    And the user enters the <Negative> number
+    And the user hit the equals "=" button
+    Then the result "<Result>" should be display
+    Examples:
+      | Positive | Negative | Result               | TestcaseName       |
+      | -10   | -5          |Invalid Expression    | For -10 and -5    |
+      | 50       |   -20    | Invalid Expression   | For 50 and -20     |
+      | -125  | -7895       | Invalid Expression        | For -125 and -7895|

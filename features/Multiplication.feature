@@ -27,6 +27,6 @@ Given the calculator application is open
       Examples:
             | First_positive | Second_negative | Result | TestcaseName    |
             | 10             | -5              | -50    | For 10 and -5   |
-            | -510           | -5              | 2,550  | For -510 and -5 |
-            | -0             |  0              | -50    | For -0 and -0   |
+            | -510           | -5              | 2550  | For -510 and -5 |
+            | -0             |  0              | -0    | For -0 and -0   |
             |  0             | -9999           | 0      | For 0 and -9999  |

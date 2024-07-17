@@ -17,7 +17,7 @@ public class CalculatorScreenPageObject {
         return By.xpath(String.format(xpath,value));
     }
 
-    public static By btn_result = By.xpath("//*[@id='actions']");
+    public static By btn_result = By.xpath("//*[@id='result']");
     public static By btn_clear = By.xpath("//input [@value='c']");
     public static By btn_1 = By.xpath("//input[@value='1']");
     public static By btn_2 = By.xpath("//input[@value='2']");
