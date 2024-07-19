@@ -7,42 +7,36 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.exception.InvalidCalculatorRessultException;
-import org.exception.InvalidCalculatoreOperatorException;
+import org.exception.InvalidBrowserException;
+import org.exception.InvalidCalculatorBtnException;
 import org.modules.CalculatorModule;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import utils.DriverFactory;
 import utils.PropertiesReader;
 import java.time.Duration;
 import java.util.Objects;
 import static java.lang.Integer.parseInt;
 
 public class StepDef {
-
     private static final Logger logger = LoggerFactory.getLogger(StepDef.class);
     public WebDriver driver;
     public CalculatorModule calculatorModule;
     @Given("the calculator application is open")
-    public void the_calculator_application_is_open() {
+    public void the_calculator_application_is_open()throws Exception {
         try {
-            logger.info("Opening Chrome browser...");
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
-            logger.info("Chrome browser opened successfully.");
+            driver = DriverFactory.getDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-            driver.get(Objects.requireNonNull(PropertiesReader.getEndPoint()).getProperty("url"));
+            driver.get(Objects.requireNonNull(PropertiesReader.geConfigProperties()).getProperty("url"));
             calculatorModule = new CalculatorModule(driver);
             logger.info("URL opened successfully.");
         } catch (Exception e) {
-            logger.error("Error opening the browser: {}", e.getMessage(), e);
+            logger.error("Error opening the browser: {}");
+            throw new InvalidBrowserException("Unsupported browser detected: " + e.getMessage());
         }
     }
     @When("the user enters the {int} interfering number")
@@ -52,7 +46,6 @@ public class StepDef {
             calculatorModule.enterNumber(parseInt(String.valueOf(c)));
         }
         logger.debug("Number entered: {}", int1);
-
     }
     @And("user hit {string} operator")
     public void userHitOperator(String arg0)throws Exception {
@@ -68,7 +61,7 @@ public class StepDef {
         }
         else {
             logger.error("Unsupported operator: ");
-            throw new InvalidCalculatoreOperatorException("Unsupported operator: ");
+            throw new InvalidCalculatorBtnException("Unsupported operator: " + arg0);
         }
     }
     @When("the user hit the equals {string} button")
@@ -81,7 +74,6 @@ public class StepDef {
             int actualResult = calculatorModule.getResult();
             assert actualResult == expectedResult : "Expected result: " + expectedResult + ", but found: " + actualResult;
             logger.info("Expected result: {}, Actual result: {}", expectedResult, actualResult);
-
     }
     @Then("the result {string} should be display")
     public void the_result_string_should_be_display(String expectedResult) throws Exception {
@@ -132,7 +124,6 @@ public class StepDef {
     public void theUserLooksAtTheMultiplySign() {
         logger.info("User looks at the Multiply sign");
     }
-
     @Then("the user should see and be able to click the multiply sign")
     public void theUserShouldSeeAndBeAbleToClickTheMultiplySign() throws Exception {
         calculatorModule.verifyButton("mul");
@@ -140,12 +131,10 @@ public class StepDef {
         logger.info("multiplicaion sign is visible and clickable");
         logger.info("Clicked the Multiply sign");
     }
-
     @When("the user looks at the divide sign")
     public void theUserLooksAtTheDivideSign() {
         logger.info("User looks at the Division sign");
     }
-
     @Then("the user should see and be able to click the divide sign")
     public void theUserShouldSeeAndBeAbleToClickTheDivideSign() throws Exception {
         calculatorModule.verifyButton("div");
@@ -153,12 +142,10 @@ public class StepDef {
         logger.info("Division sign is visible and clickable");
         logger.info("Clicked the division sign");
     }
-
     @When("the user looks at the equals sign")
     public void theUserLooksAtTheEqualsSign() {
         logger.info("User looks at the Equals sign");
     }
-
     @Then("the user should see and be able to click the equals sign")
     public void theUserShouldSeeAndBeAbleToClickTheEqualsSign() throws Exception {
         calculatorModule.verifyButton("equals");
@@ -166,7 +153,6 @@ public class StepDef {
         logger.info("equals sign is visible and clickable");
         logger.info("Clicked the equals sign");
     }
-
     @After
     public void tearDown(Scenario scenario) {
         try {

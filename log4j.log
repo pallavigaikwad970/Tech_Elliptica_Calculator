@@ -5326,3 +5326,636 @@
 2024-07-17 17:28:51.300 INFO  -Clicked button: equals
 2024-07-17 17:28:51.301 INFO  -equals sign is visible and clickable
 2024-07-17 17:28:51.306 INFO  -Clicked the equals sign
+2024-07-17 19:45:28.394 INFO  -Opening Chrome browser...
+2024-07-17 19:45:33.716 INFO  -Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-17 19:45:33.771 INFO  -Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-17 19:45:42.261 INFO  -Chrome browser opened successfully.
+2024-07-17 19:45:47.796 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-17 19:45:47.826 INFO  -WebAction instance created with WebDriver: ChromeDriver: chrome-headless-shell on windows (219f4901bdfc83e1610adadb406949fa)
+2024-07-17 19:45:47.831 INFO  -Initialized WebAction in CalculatorModule
+2024-07-17 19:45:47.851 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-17 19:45:47.856 INFO  -URL opened successfully.
+2024-07-17 19:45:47.881 INFO  -User looks at the plus sign
+2024-07-17 19:45:47.891 WARN  -Button element not found for type: add
+2024-07-17 19:45:47.941 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-17 19:45:48.459 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-17 19:45:48.460 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-17 19:45:48.461 INFO  -Clicked button: add
+2024-07-17 19:45:48.462 INFO  -Plus sign is visible and clickable
+2024-07-17 19:45:48.463 INFO  -Clicked the plus sign
+2024-07-17 19:45:48.894 INFO  -Opening Chrome browser...
+2024-07-17 19:45:48.996 INFO  -Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-17 19:45:49.021 INFO  -Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-17 19:45:50.671 INFO  -Chrome browser opened successfully.
+2024-07-17 19:45:51.588 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-17 19:45:51.589 INFO  -WebAction instance created with WebDriver: ChromeDriver: chrome-headless-shell on windows (8186be2b3eb8c875c8428fa22a2ac56c)
+2024-07-17 19:45:51.589 INFO  -Initialized WebAction in CalculatorModule
+2024-07-17 19:45:51.589 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-17 19:45:51.590 INFO  -URL opened successfully.
+2024-07-17 19:45:51.637 INFO  -User looks at the Minus sign
+2024-07-17 19:45:51.640 WARN  -Button element not found for type: sub
+2024-07-17 19:45:51.643 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-17 19:45:52.012 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-17 19:45:52.012 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-17 19:45:52.012 INFO  -Clicked button: sub
+2024-07-17 19:45:52.014 INFO  -minus sign is visible and clickable
+2024-07-17 19:45:52.014 INFO  -Clicked the minus sign
+2024-07-17 19:45:52.296 INFO  -Opening Chrome browser...
+2024-07-17 19:45:52.331 INFO  -Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-17 19:45:52.341 INFO  -Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-17 19:45:53.416 INFO  -Chrome browser opened successfully.
+2024-07-17 19:45:54.079 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-17 19:45:54.080 INFO  -WebAction instance created with WebDriver: ChromeDriver: chrome-headless-shell on windows (b747679df3305968151d84b2cd42df2c)
+2024-07-17 19:45:54.081 INFO  -Initialized WebAction in CalculatorModule
+2024-07-17 19:45:54.081 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-17 19:45:54.081 INFO  -URL opened successfully.
+2024-07-17 19:45:54.081 INFO  -User looks at the Multiply sign
+2024-07-17 19:45:54.086 WARN  -Button element not found for type: mul
+2024-07-17 19:45:54.093 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-17 19:45:54.229 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-17 19:45:54.230 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-17 19:45:54.230 INFO  -Clicked button: mul
+2024-07-17 19:45:54.230 INFO  -multiplicaion sign is visible and clickable
+2024-07-17 19:45:54.230 INFO  -Clicked the Multiply sign
+2024-07-17 19:45:54.455 INFO  -Opening Chrome browser...
+2024-07-17 19:45:54.481 INFO  -Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-17 19:45:54.506 INFO  -Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-17 19:45:55.810 INFO  -Chrome browser opened successfully.
+2024-07-17 19:45:58.028 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-17 19:45:58.028 INFO  -WebAction instance created with WebDriver: ChromeDriver: chrome-headless-shell on windows (ae3dbe46482b9ddf1320de11ba3076a4)
+2024-07-17 19:45:58.029 INFO  -Initialized WebAction in CalculatorModule
+2024-07-17 19:45:58.029 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-17 19:45:58.029 INFO  -URL opened successfully.
+2024-07-17 19:45:58.030 INFO  -User looks at the Division sign
+2024-07-17 19:45:58.032 WARN  -Button element not found for type: div
+2024-07-17 19:45:58.035 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-17 19:45:58.217 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-17 19:45:58.217 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-17 19:45:58.217 INFO  -Clicked button: div
+2024-07-17 19:45:58.218 INFO  -Division sign is visible and clickable
+2024-07-17 19:45:58.218 INFO  -Clicked the division sign
+2024-07-17 19:45:58.578 INFO  -Opening Chrome browser...
+2024-07-17 19:45:58.616 INFO  -Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-17 19:45:58.649 INFO  -Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-17 19:46:00.231 INFO  -Chrome browser opened successfully.
+2024-07-17 19:46:01.363 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-17 19:46:01.364 INFO  -WebAction instance created with WebDriver: ChromeDriver: chrome-headless-shell on windows (6985eda40640c890532b1f4201f9d748)
+2024-07-17 19:46:01.365 INFO  -Initialized WebAction in CalculatorModule
+2024-07-17 19:46:01.367 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-17 19:46:01.368 INFO  -URL opened successfully.
+2024-07-17 19:46:01.371 INFO  -User looks at the Equals sign
+2024-07-17 19:46:01.372 WARN  -Button element not found for type: equals
+2024-07-17 19:46:01.375 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-17 19:46:01.530 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-17 19:46:01.530 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-17 19:46:01.530 INFO  -Clicked button: equals
+2024-07-17 19:46:01.532 INFO  -equals sign is visible and clickable
+2024-07-17 19:46:01.532 INFO  -Clicked the equals sign
+2024-07-18 15:09:35.434 INFO  -Opening Edge browser...
+2024-07-18 15:09:42.704 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:09:42.823 INFO  -Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2024-07-18 15:09:46.044 INFO  -Downloading https://msedgewebdriverstorage.blob.core.windows.net/edgewebdriver/126.0.2592.102/edgedriver_win64.zip
+2024-07-18 15:10:52.394 INFO  -Extracting driver from compressed file edgedriver_win64.zip
+2024-07-18 15:10:54.058 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:11:18.358 INFO  -Edge browser opened successfully
+2024-07-18 15:11:30.138 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:11:30.172 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (8bbaa2e994332b3d1f7bc0db01c0eb11)
+2024-07-18 15:11:30.173 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:11:30.200 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:11:30.200 INFO  -URL opened successfully.
+2024-07-18 15:11:30.898 INFO  -User looks at the plus sign
+2024-07-18 15:11:30.908 WARN  -Button element not found for type: add
+2024-07-18 15:11:30.944 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-18 15:11:31.623 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-18 15:11:31.624 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-18 15:11:31.666 INFO  -Clicked button: add
+2024-07-18 15:11:31.666 INFO  -Plus sign is visible and clickable
+2024-07-18 15:11:31.666 INFO  -Clicked the plus sign
+2024-07-18 15:11:32.598 WARN  -onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-07-18 15:11:33.394 INFO  -Opening Edge browser...
+2024-07-18 15:11:34.154 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:11:34.266 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:11:48.584 INFO  -Edge browser opened successfully
+2024-07-18 15:11:49.774 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:11:49.774 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (abc4616dc515a8a2fa8dbc33d60b3d85)
+2024-07-18 15:11:49.774 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:11:49.774 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:11:49.774 INFO  -URL opened successfully.
+2024-07-18 15:11:49.774 INFO  -User looks at the Minus sign
+2024-07-18 15:11:49.789 WARN  -Button element not found for type: sub
+2024-07-18 15:11:49.794 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-18 15:11:50.454 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-18 15:11:50.459 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-18 15:11:50.469 INFO  -Clicked button: sub
+2024-07-18 15:11:50.474 INFO  -minus sign is visible and clickable
+2024-07-18 15:11:50.481 INFO  -Clicked the minus sign
+2024-07-18 15:11:52.480 INFO  -Opening Edge browser...
+2024-07-18 15:11:52.555 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:11:52.609 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:11:55.737 INFO  -Edge browser opened successfully
+2024-07-18 15:11:57.280 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:11:57.284 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (a6ed7974493326a912d125aa3298a7c8)
+2024-07-18 15:11:57.287 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:11:57.287 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:11:57.287 INFO  -URL opened successfully.
+2024-07-18 15:11:57.294 INFO  -User looks at the Multiply sign
+2024-07-18 15:11:57.302 WARN  -Button element not found for type: mul
+2024-07-18 15:11:57.307 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-18 15:11:57.530 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-18 15:11:57.530 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-18 15:11:57.531 INFO  -Clicked button: mul
+2024-07-18 15:11:57.532 INFO  -multiplicaion sign is visible and clickable
+2024-07-18 15:11:57.532 INFO  -Clicked the Multiply sign
+2024-07-18 15:11:58.729 INFO  -Opening Edge browser...
+2024-07-18 15:11:58.814 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:11:58.849 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:12:01.630 INFO  -Edge browser opened successfully
+2024-07-18 15:12:03.832 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:12:03.835 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (a37624bc7b471857aa932d91ca9267bd)
+2024-07-18 15:12:03.835 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:12:03.836 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:12:03.841 INFO  -URL opened successfully.
+2024-07-18 15:12:03.854 INFO  -User looks at the Division sign
+2024-07-18 15:12:03.858 WARN  -Button element not found for type: div
+2024-07-18 15:12:03.858 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-18 15:12:04.069 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-18 15:12:04.069 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-18 15:12:04.069 INFO  -Clicked button: div
+2024-07-18 15:12:04.069 INFO  -Division sign is visible and clickable
+2024-07-18 15:12:04.069 INFO  -Clicked the division sign
+2024-07-18 15:12:05.209 INFO  -Opening Edge browser...
+2024-07-18 15:12:05.444 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:12:05.484 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:12:09.425 INFO  -Edge browser opened successfully
+2024-07-18 15:12:10.283 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:12:10.283 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (28077569ea5748694d7e771f0070e2ec)
+2024-07-18 15:12:10.283 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:12:10.284 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:12:10.285 INFO  -URL opened successfully.
+2024-07-18 15:12:10.286 INFO  -User looks at the Equals sign
+2024-07-18 15:12:10.289 WARN  -Button element not found for type: equals
+2024-07-18 15:12:10.300 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:12:11.059 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:12:11.059 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:12:11.061 INFO  -Clicked button: equals
+2024-07-18 15:12:11.065 INFO  -equals sign is visible and clickable
+2024-07-18 15:12:11.065 INFO  -Clicked the equals sign
+2024-07-18 15:13:05.319 INFO  -Opening Edge browser...
+2024-07-18 15:13:06.764 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:13:06.884 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:13:21.956 INFO  -Edge browser opened successfully
+2024-07-18 15:13:26.676 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:13:26.699 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (dbe1852d6ea4839f2e8104848ebbdc1c)
+2024-07-18 15:13:26.699 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:13:26.707 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:13:26.707 INFO  -URL opened successfully.
+2024-07-18 15:13:26.734 INFO  -User looks at the plus sign
+2024-07-18 15:13:26.739 WARN  -Button element not found for type: add
+2024-07-18 15:13:26.769 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-18 15:13:27.078 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-18 15:13:27.078 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-18 15:13:27.078 INFO  -Clicked button: add
+2024-07-18 15:13:27.078 INFO  -Plus sign is visible and clickable
+2024-07-18 15:13:27.078 INFO  -Clicked the plus sign
+2024-07-18 15:13:27.819 WARN  -onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-07-18 15:13:28.419 INFO  -Opening Edge browser...
+2024-07-18 15:13:28.474 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:13:28.514 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:13:32.699 INFO  -Edge browser opened successfully
+2024-07-18 15:13:35.313 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:13:35.314 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (12603f9d7467a3de54c2b379da268f83)
+2024-07-18 15:13:35.315 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:13:35.317 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:13:35.318 INFO  -URL opened successfully.
+2024-07-18 15:13:35.320 INFO  -User looks at the Minus sign
+2024-07-18 15:13:35.327 WARN  -Button element not found for type: sub
+2024-07-18 15:13:35.340 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-18 15:13:35.765 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-18 15:13:35.765 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-18 15:13:35.769 INFO  -Clicked button: sub
+2024-07-18 15:13:35.769 INFO  -minus sign is visible and clickable
+2024-07-18 15:13:35.769 INFO  -Clicked the minus sign
+2024-07-18 15:13:36.659 INFO  -Opening Edge browser...
+2024-07-18 15:13:36.744 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:13:36.779 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:13:39.635 INFO  -Edge browser opened successfully
+2024-07-18 15:13:40.962 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:13:40.963 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (f5c7827ad8f6765d5fff801b2c8ca2bc)
+2024-07-18 15:13:40.963 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:13:40.964 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:13:40.965 INFO  -URL opened successfully.
+2024-07-18 15:13:40.967 INFO  -User looks at the Multiply sign
+2024-07-18 15:13:40.983 WARN  -Button element not found for type: mul
+2024-07-18 15:13:40.991 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-18 15:13:41.234 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-18 15:13:41.235 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-18 15:13:41.236 INFO  -Clicked button: mul
+2024-07-18 15:13:41.236 INFO  -multiplicaion sign is visible and clickable
+2024-07-18 15:13:41.236 INFO  -Clicked the Multiply sign
+2024-07-18 15:13:42.094 INFO  -Opening Edge browser...
+2024-07-18 15:13:42.125 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:13:42.149 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:13:45.177 INFO  -Edge browser opened successfully
+2024-07-18 15:13:47.729 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:13:47.734 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (2e49866995cb7e5bfab52dc5357df5cc)
+2024-07-18 15:13:47.734 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:13:47.734 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:13:47.734 INFO  -URL opened successfully.
+2024-07-18 15:13:47.740 INFO  -User looks at the Division sign
+2024-07-18 15:13:47.744 WARN  -Button element not found for type: div
+2024-07-18 15:13:47.764 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-18 15:13:48.007 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-18 15:13:48.007 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-18 15:13:48.008 INFO  -Clicked button: div
+2024-07-18 15:13:48.010 INFO  -Division sign is visible and clickable
+2024-07-18 15:13:48.010 INFO  -Clicked the division sign
+2024-07-18 15:13:49.225 INFO  -Opening Edge browser...
+2024-07-18 15:13:49.269 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:13:49.307 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:13:52.016 INFO  -Edge browser opened successfully
+2024-07-18 15:13:53.000 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:13:53.001 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (1529e2fda0ba5a32cbe2eb9aeb86e289)
+2024-07-18 15:13:53.005 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:13:53.005 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:13:53.008 INFO  -URL opened successfully.
+2024-07-18 15:13:53.015 INFO  -User looks at the Equals sign
+2024-07-18 15:13:53.017 WARN  -Button element not found for type: equals
+2024-07-18 15:13:53.019 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:13:54.024 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:13:54.024 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:13:54.025 INFO  -Clicked button: equals
+2024-07-18 15:13:54.025 INFO  -equals sign is visible and clickable
+2024-07-18 15:13:54.025 INFO  -Clicked the equals sign
+2024-07-18 15:16:29.839 INFO  -Opening Edge browser...
+2024-07-18 15:16:33.440 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:16:33.564 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:16:51.438 INFO  -Edge browser opened successfully
+2024-07-18 15:16:59.135 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:16:59.148 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (9395ed0b7e43775fe94ff728da8e6837)
+2024-07-18 15:16:59.148 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:16:59.165 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:16:59.166 INFO  -URL opened successfully.
+2024-07-18 15:16:59.218 INFO  -User looks at the plus sign
+2024-07-18 15:16:59.237 WARN  -Button element not found for type: add
+2024-07-18 15:16:59.280 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-18 15:16:59.835 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-18 15:16:59.835 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-18 15:16:59.841 INFO  -Clicked button: add
+2024-07-18 15:16:59.843 INFO  -Plus sign is visible and clickable
+2024-07-18 15:16:59.844 INFO  -Clicked the plus sign
+2024-07-18 15:17:01.342 INFO  -Opening Edge browser...
+2024-07-18 15:17:01.394 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:17:01.435 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:17:06.794 INFO  -Edge browser opened successfully
+2024-07-18 15:17:10.000 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:17:10.005 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (c2223d1c2c582d1979fc4638ddea8113)
+2024-07-18 15:17:10.005 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:17:10.005 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:17:10.011 INFO  -URL opened successfully.
+2024-07-18 15:17:10.015 INFO  -User looks at the Minus sign
+2024-07-18 15:17:10.019 WARN  -Button element not found for type: sub
+2024-07-18 15:17:10.029 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-18 15:17:11.132 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-18 15:17:11.215 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-18 15:17:11.216 INFO  -Clicked button: sub
+2024-07-18 15:17:11.217 INFO  -minus sign is visible and clickable
+2024-07-18 15:17:11.217 INFO  -Clicked the minus sign
+2024-07-18 15:17:12.459 INFO  -Opening Edge browser...
+2024-07-18 15:17:12.532 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:17:12.585 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:17:20.160 INFO  -Edge browser opened successfully
+2024-07-18 15:17:28.749 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:17:28.749 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (50eaa8090132d244045fa65123cddccf)
+2024-07-18 15:17:28.749 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:17:28.749 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:17:28.749 INFO  -URL opened successfully.
+2024-07-18 15:17:28.754 INFO  -User looks at the Multiply sign
+2024-07-18 15:17:28.754 WARN  -Button element not found for type: mul
+2024-07-18 15:17:28.768 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-18 15:17:30.967 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-18 15:17:30.967 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-18 15:17:30.968 INFO  -Clicked button: mul
+2024-07-18 15:17:30.968 INFO  -multiplicaion sign is visible and clickable
+2024-07-18 15:17:30.968 INFO  -Clicked the Multiply sign
+2024-07-18 15:17:32.269 INFO  -Opening Edge browser...
+2024-07-18 15:17:32.314 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:17:32.328 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:17:38.024 INFO  -Edge browser opened successfully
+2024-07-18 15:17:44.094 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:17:44.095 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (b1c724fe43c3d757bdd57beea5ca0c4d)
+2024-07-18 15:17:44.095 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:17:44.095 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:17:44.095 INFO  -URL opened successfully.
+2024-07-18 15:17:44.095 INFO  -User looks at the Division sign
+2024-07-18 15:17:44.099 WARN  -Button element not found for type: div
+2024-07-18 15:17:44.099 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-18 15:17:44.996 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-18 15:17:44.999 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-18 15:17:44.999 INFO  -Clicked button: div
+2024-07-18 15:17:44.999 INFO  -Division sign is visible and clickable
+2024-07-18 15:17:44.999 INFO  -Clicked the division sign
+2024-07-18 15:17:46.385 INFO  -Opening Edge browser...
+2024-07-18 15:17:46.427 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:17:46.474 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:17:50.650 INFO  -Edge browser opened successfully
+2024-07-18 15:17:52.840 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:17:52.840 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (2f61c1aae9407f83d8399159d0001b19)
+2024-07-18 15:17:52.840 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:17:52.844 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:17:52.844 INFO  -URL opened successfully.
+2024-07-18 15:17:52.864 INFO  -User looks at the Equals sign
+2024-07-18 15:17:52.885 WARN  -Button element not found for type: equals
+2024-07-18 15:17:52.946 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:17:53.213 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:17:53.214 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:17:53.215 INFO  -Clicked button: equals
+2024-07-18 15:17:53.218 INFO  -equals sign is visible and clickable
+2024-07-18 15:17:53.219 INFO  -Clicked the equals sign
+2024-07-18 15:19:18.049 INFO  -Opening Edge browser...
+2024-07-18 15:19:19.664 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:19:19.740 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:19:42.655 INFO  -Edge browser opened successfully
+2024-07-18 15:19:46.895 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:19:46.982 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (b1344d6f47dcac2e1b694d54f549c58b)
+2024-07-18 15:19:46.983 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:19:47.059 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:19:47.059 INFO  -URL opened successfully.
+2024-07-18 15:19:47.085 INFO  -User looks at the plus sign
+2024-07-18 15:19:47.094 WARN  -Button element not found for type: add
+2024-07-18 15:19:47.157 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-18 15:19:48.600 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-18 15:19:48.602 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-18 15:19:48.604 INFO  -Clicked button: add
+2024-07-18 15:19:48.606 INFO  -Plus sign is visible and clickable
+2024-07-18 15:19:48.607 INFO  -Clicked the plus sign
+2024-07-18 15:19:51.224 INFO  -Opening Edge browser...
+2024-07-18 15:19:51.260 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:19:51.320 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:19:55.069 INFO  -Edge browser opened successfully
+2024-07-18 15:19:57.910 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:19:57.910 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (af5977e37fbfc2844bbade4bbe6b8d72)
+2024-07-18 15:19:57.910 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:19:57.910 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:19:57.910 INFO  -URL opened successfully.
+2024-07-18 15:19:57.930 INFO  -User looks at the Minus sign
+2024-07-18 15:19:57.940 WARN  -Button element not found for type: sub
+2024-07-18 15:19:57.968 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-18 15:19:58.270 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-18 15:19:58.270 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-18 15:19:58.270 INFO  -Clicked button: sub
+2024-07-18 15:19:58.270 INFO  -minus sign is visible and clickable
+2024-07-18 15:19:58.270 INFO  -Clicked the minus sign
+2024-07-18 15:20:01.225 INFO  -Opening Edge browser...
+2024-07-18 15:20:01.275 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:20:01.349 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:20:10.920 INFO  -Edge browser opened successfully
+2024-07-18 15:20:12.366 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:20:12.368 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (493f2e6d0abd326abe7db8e1bd467581)
+2024-07-18 15:20:12.369 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:20:12.371 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:20:12.385 INFO  -URL opened successfully.
+2024-07-18 15:20:12.395 INFO  -User looks at the Multiply sign
+2024-07-18 15:20:12.404 WARN  -Button element not found for type: mul
+2024-07-18 15:20:12.428 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-18 15:20:12.755 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-18 15:20:12.755 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-18 15:20:12.755 INFO  -Clicked button: mul
+2024-07-18 15:20:12.755 INFO  -multiplicaion sign is visible and clickable
+2024-07-18 15:20:12.760 INFO  -Clicked the Multiply sign
+2024-07-18 15:20:13.893 INFO  -Opening Edge browser...
+2024-07-18 15:20:13.935 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:20:13.954 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:20:18.010 INFO  -Edge browser opened successfully
+2024-07-18 15:20:20.185 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:20:20.187 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (3fe4a7973e5905fe35f417bd2ed2b8c8)
+2024-07-18 15:20:20.187 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:20:20.187 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:20:20.187 INFO  -URL opened successfully.
+2024-07-18 15:20:20.195 INFO  -User looks at the Division sign
+2024-07-18 15:20:20.200 WARN  -Button element not found for type: div
+2024-07-18 15:20:20.208 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-18 15:20:21.490 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-18 15:20:21.491 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-18 15:20:21.492 INFO  -Clicked button: div
+2024-07-18 15:20:21.492 INFO  -Division sign is visible and clickable
+2024-07-18 15:20:21.492 INFO  -Clicked the division sign
+2024-07-18 15:20:22.810 INFO  -Opening Edge browser...
+2024-07-18 15:20:22.839 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:20:22.855 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:20:26.517 INFO  -Edge browser opened successfully
+2024-07-18 15:20:28.908 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:20:28.913 INFO  -WebAction instance created with WebDriver: EdgeDriver: MicrosoftEdge on windows (240074f4ad4bbf349b8223e2d37c08e2)
+2024-07-18 15:20:28.916 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:20:28.917 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:20:28.918 INFO  -URL opened successfully.
+2024-07-18 15:20:28.921 INFO  -User looks at the Equals sign
+2024-07-18 15:20:28.924 WARN  -Button element not found for type: equals
+2024-07-18 15:20:28.935 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:20:29.147 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:20:29.147 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:20:29.148 INFO  -Clicked button: equals
+2024-07-18 15:20:29.149 INFO  -equals sign is visible and clickable
+2024-07-18 15:20:29.149 INFO  -Clicked the equals sign
+2024-07-18 15:21:45.820 INFO  -Opening Edge browser...
+2024-07-18 15:21:47.570 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:21:47.667 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:21:58.100 INFO  -Edge browser opened successfully
+2024-07-18 15:22:03.255 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:22:03.260 INFO  -WebAction instance created with WebDriver: EdgeDriver: edge-headless-shell on windows (b12a5a7f3ec2b8540f6760edff2c01fe)
+2024-07-18 15:22:03.265 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:22:03.280 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:22:03.280 INFO  -URL opened successfully.
+2024-07-18 15:22:03.305 INFO  -User looks at the plus sign
+2024-07-18 15:22:03.305 WARN  -Button element not found for type: add
+2024-07-18 15:22:03.330 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-18 15:22:03.582 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-18 15:22:03.582 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-18 15:22:03.583 INFO  -Clicked button: add
+2024-07-18 15:22:03.584 INFO  -Plus sign is visible and clickable
+2024-07-18 15:22:03.584 INFO  -Clicked the plus sign
+2024-07-18 15:22:03.980 INFO  -Opening Edge browser...
+2024-07-18 15:22:04.050 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:22:04.160 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:22:05.790 INFO  -Edge browser opened successfully
+2024-07-18 15:22:06.347 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:22:06.347 INFO  -WebAction instance created with WebDriver: EdgeDriver: edge-headless-shell on windows (caa2a05353c597d75aeaeac3acec69cc)
+2024-07-18 15:22:06.347 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:22:06.348 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:22:06.348 INFO  -URL opened successfully.
+2024-07-18 15:22:06.350 INFO  -User looks at the Minus sign
+2024-07-18 15:22:06.353 WARN  -Button element not found for type: sub
+2024-07-18 15:22:06.357 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-18 15:22:07.758 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-18 15:22:07.759 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-18 15:22:07.760 INFO  -Clicked button: sub
+2024-07-18 15:22:07.760 INFO  -minus sign is visible and clickable
+2024-07-18 15:22:07.761 INFO  -Clicked the minus sign
+2024-07-18 15:22:08.174 INFO  -Opening Edge browser...
+2024-07-18 15:22:08.240 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:22:08.275 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:22:09.908 INFO  -Edge browser opened successfully
+2024-07-18 15:22:11.786 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:22:11.786 INFO  -WebAction instance created with WebDriver: EdgeDriver: edge-headless-shell on windows (3ab07e8085a8bc69f94e45cdc8acb2df)
+2024-07-18 15:22:11.786 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:22:11.786 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:22:11.786 INFO  -URL opened successfully.
+2024-07-18 15:22:11.794 INFO  -User looks at the Multiply sign
+2024-07-18 15:22:11.796 WARN  -Button element not found for type: mul
+2024-07-18 15:22:11.806 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-18 15:22:12.015 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-18 15:22:12.015 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-18 15:22:12.016 INFO  -Clicked button: mul
+2024-07-18 15:22:12.016 INFO  -multiplicaion sign is visible and clickable
+2024-07-18 15:22:12.019 INFO  -Clicked the Multiply sign
+2024-07-18 15:22:12.730 INFO  -Opening Edge browser...
+2024-07-18 15:22:12.785 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:22:12.843 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:22:14.116 INFO  -Edge browser opened successfully
+2024-07-18 15:22:16.662 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:22:16.663 INFO  -WebAction instance created with WebDriver: EdgeDriver: edge-headless-shell on windows (e6e965a3ccc0bce93226e5ca5e36c9be)
+2024-07-18 15:22:16.665 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:22:16.665 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:22:16.665 INFO  -URL opened successfully.
+2024-07-18 15:22:16.668 INFO  -User looks at the Division sign
+2024-07-18 15:22:16.669 WARN  -Button element not found for type: div
+2024-07-18 15:22:16.673 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-18 15:22:16.819 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-18 15:22:16.820 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-18 15:22:16.820 INFO  -Clicked button: div
+2024-07-18 15:22:16.820 INFO  -Division sign is visible and clickable
+2024-07-18 15:22:16.820 INFO  -Clicked the division sign
+2024-07-18 15:22:17.170 INFO  -Opening Edge browser...
+2024-07-18 15:22:17.190 INFO  -Using msedgedriver 126.0.2592.102 (resolved driver for Edge 126)
+2024-07-18 15:22:17.210 INFO  -Exporting webdriver.edge.driver as C:\Users\ADMIN\.cache\selenium\msedgedriver\win64\126.0.2592.102\msedgedriver.exe
+2024-07-18 15:22:18.545 INFO  -Edge browser opened successfully
+2024-07-18 15:22:20.930 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 15:22:20.932 INFO  -WebAction instance created with WebDriver: EdgeDriver: edge-headless-shell on windows (af8fb6e31443a2690d7d5da8b7c4b80e)
+2024-07-18 15:22:20.935 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 15:22:20.935 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 15:22:20.936 INFO  -URL opened successfully.
+2024-07-18 15:22:20.937 INFO  -User looks at the Equals sign
+2024-07-18 15:22:20.942 WARN  -Button element not found for type: equals
+2024-07-18 15:22:20.946 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:22:21.119 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:22:21.119 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-18 15:22:21.119 INFO  -Clicked button: equals
+2024-07-18 15:22:21.120 INFO  -equals sign is visible and clickable
+2024-07-18 15:22:21.120 INFO  -Clicked the equals sign
+2024-07-18 16:22:22.896 INFO  -Opening Firefox browser...
+2024-07-18 16:22:27.631 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-18 16:22:27.734 INFO  -Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2024-07-18 16:22:28.001 INFO  -Downloading https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+2024-07-18 16:22:35.128 INFO  -Extracting driver from compressed file geckodriver-v0.34.0-win64.zip
+2024-07-18 16:22:35.501 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-18 16:22:47.312 INFO  -FireFox browser opened successfully.
+2024-07-18 16:22:49.503 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 16:22:49.522 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (d0bd5543-49f4-4349-88a0-e4c8af9f84a8)
+2024-07-18 16:22:49.524 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 16:22:49.549 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 16:22:49.552 INFO  -URL opened successfully.
+2024-07-18 16:22:49.606 INFO  -User looks at the plus sign
+2024-07-18 16:22:49.620 WARN  -Button element not found for type: add
+2024-07-18 16:22:49.660 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-18 16:22:50.437 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-18 16:22:50.437 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-18 16:22:50.484 INFO  -Clicked button: add
+2024-07-18 16:22:50.488 INFO  -Plus sign is visible and clickable
+2024-07-18 16:22:50.488 INFO  -Clicked the plus sign
+2024-07-18 16:22:53.643 INFO  -Opening Firefox browser...
+2024-07-18 16:22:54.296 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-18 16:22:54.342 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-18 16:23:00.994 INFO  -FireFox browser opened successfully.
+2024-07-18 16:23:02.762 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 16:23:02.762 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (75272d27-537a-46fc-a11a-606bb2f6f111)
+2024-07-18 16:23:02.762 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 16:23:02.762 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 16:23:02.762 INFO  -URL opened successfully.
+2024-07-18 16:23:02.762 INFO  -User looks at the Minus sign
+2024-07-18 16:23:02.772 WARN  -Button element not found for type: sub
+2024-07-18 16:23:02.782 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-18 16:23:03.638 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-18 16:23:03.638 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-18 16:23:03.641 INFO  -Clicked button: sub
+2024-07-18 16:23:03.641 INFO  -minus sign is visible and clickable
+2024-07-18 16:23:03.642 INFO  -Clicked the minus sign
+2024-07-18 16:23:06.584 INFO  -Opening Firefox browser...
+2024-07-18 16:23:06.616 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-18 16:23:06.662 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-18 16:23:13.025 INFO  -FireFox browser opened successfully.
+2024-07-18 16:23:15.043 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 16:23:15.043 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (373eaa63-56cf-484a-ad52-27dfc408b784)
+2024-07-18 16:23:15.048 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 16:23:15.048 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 16:23:15.048 INFO  -URL opened successfully.
+2024-07-18 16:23:15.048 INFO  -User looks at the Multiply sign
+2024-07-18 16:23:15.055 WARN  -Button element not found for type: mul
+2024-07-18 16:23:15.062 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-18 16:23:15.903 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-18 16:23:15.903 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-18 16:23:15.903 INFO  -Clicked button: mul
+2024-07-18 16:23:15.903 INFO  -multiplicaion sign is visible and clickable
+2024-07-18 16:23:15.903 INFO  -Clicked the Multiply sign
+2024-07-18 16:23:18.408 INFO  -Opening Firefox browser...
+2024-07-18 16:23:18.438 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-18 16:23:18.474 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-18 16:23:24.191 INFO  -FireFox browser opened successfully.
+2024-07-18 16:23:25.795 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 16:23:25.798 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (e7612fd9-3cff-47ec-8618-525d62de1c6c)
+2024-07-18 16:23:25.798 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 16:23:25.798 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 16:23:25.798 INFO  -URL opened successfully.
+2024-07-18 16:23:25.836 INFO  -User looks at the Division sign
+2024-07-18 16:23:25.836 WARN  -Button element not found for type: div
+2024-07-18 16:23:25.844 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-18 16:23:26.348 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-18 16:23:26.348 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-18 16:23:26.354 INFO  -Clicked button: div
+2024-07-18 16:23:26.354 INFO  -Division sign is visible and clickable
+2024-07-18 16:23:26.354 INFO  -Clicked the division sign
+2024-07-18 16:23:28.824 INFO  -Opening Firefox browser...
+2024-07-18 16:23:29.363 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-18 16:23:29.393 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-18 16:23:35.923 INFO  -FireFox browser opened successfully.
+2024-07-18 16:23:38.753 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-18 16:23:38.753 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (d881b96e-ad2c-4ce6-8d11-7e862831dbf5)
+2024-07-18 16:23:38.753 INFO  -Initialized WebAction in CalculatorModule
+2024-07-18 16:23:38.753 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-18 16:23:38.753 INFO  -URL opened successfully.
+2024-07-18 16:23:38.763 INFO  -User looks at the Equals sign
+2024-07-18 16:23:38.763 WARN  -Button element not found for type: equals
+2024-07-18 16:23:38.767 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-18 16:23:39.178 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-18 16:23:39.178 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-18 16:23:39.178 INFO  -Clicked button: equals
+2024-07-18 16:23:39.178 INFO  -equals sign is visible and clickable
+2024-07-18 16:23:39.183 INFO  -Clicked the equals sign

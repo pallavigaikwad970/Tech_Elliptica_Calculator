@@ -51,7 +51,7 @@ public class CalculatorModule {
             boolean buttonClicked = false;
             if (!buttonClicked) {
                 logger.warn("Button not found: " + buttonType);
-                throw new InvalidCalculatorBtnException("Invalid button :");
+                throw new InvalidCalculatorBtnException("Invalid button :"+buttonType);
             }
         }
     }
@@ -86,7 +86,7 @@ public class CalculatorModule {
         }
     }
 
-    public boolean verifyButton(String buttonType)throws InvalidCalculatoreOperatorException {
+    public boolean verifyButton(String buttonType)throws InvalidCalculatorBtnException {
         try {
             WebElement buttonElement = null;
             if (buttonElement != null) {
@@ -101,7 +101,8 @@ public class CalculatorModule {
                 return false;
             }
         }catch (Exception e){
-            throw new InvalidCalculatoreOperatorException("Unsupported operator:");
+            throw new InvalidCalculatorBtnException("Invalid Button : " +buttonType);
+
         }
     }
 }
