@@ -5959,3 +5959,1824 @@ java.net.SocketException: Connection reset
 2024-07-18 16:23:39.178 INFO  -Clicked button: equals
 2024-07-18 16:23:39.178 INFO  -equals sign is visible and clickable
 2024-07-18 16:23:39.183 INFO  -Clicked the equals sign
+2024-07-22 11:14:33.055 INFO  -Opening Firefox browser...
+2024-07-22 11:14:37.372 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 11:14:37.984 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 11:14:58.636 INFO  -FireFox browser opened successfully.
+2024-07-22 11:15:09.651 ERROR -Error opening the browser: {}
+2024-07-22 11:15:29.988 INFO  -Opening Firefox browser...
+2024-07-22 11:15:30.693 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 11:15:30.857 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 11:15:54.170 INFO  -FireFox browser opened successfully.
+2024-07-22 11:16:01.786 ERROR -Error opening the browser: {}
+2024-07-22 11:16:05.842 INFO  -Opening Firefox browser...
+2024-07-22 11:16:06.951 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 11:16:07.084 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 11:16:21.967 INFO  -FireFox browser opened successfully.
+2024-07-22 11:16:32.025 ERROR -Error opening the browser: {}
+2024-07-22 11:16:38.900 INFO  -Opening Firefox browser...
+2024-07-22 11:16:39.907 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 11:16:40.220 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 11:16:53.755 INFO  -FireFox browser opened successfully.
+2024-07-22 11:17:00.708 ERROR -Error opening the browser: {}
+2024-07-22 11:17:03.442 INFO  -Opening Firefox browser...
+2024-07-22 11:17:03.478 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 11:17:03.532 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 11:17:18.515 INFO  -FireFox browser opened successfully.
+2024-07-22 11:17:26.542 ERROR -Error opening the browser: {}
+2024-07-22 12:10:59.498 INFO  -Opening Firefox browser...
+2024-07-22 12:11:02.554 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 12:11:02.771 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 12:11:21.718 INFO  -FireFox browser opened successfully.
+2024-07-22 12:11:28.817 ERROR -Error opening the browser: {}
+2024-07-22 12:11:35.531 INFO  -Opening Firefox browser...
+2024-07-22 12:11:35.569 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 12:11:35.594 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 12:11:50.958 INFO  -FireFox browser opened successfully.
+2024-07-22 12:11:58.342 ERROR -Error opening the browser: {}
+2024-07-22 12:12:02.050 INFO  -Opening Firefox browser...
+2024-07-22 12:12:02.545 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 12:12:02.579 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 12:12:12.062 INFO  -FireFox browser opened successfully.
+2024-07-22 12:12:19.491 ERROR -Error opening the browser: {}
+2024-07-22 12:12:23.280 INFO  -Opening Firefox browser...
+2024-07-22 12:12:24.112 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 12:12:24.215 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 12:12:51.008 INFO  -FireFox browser opened successfully.
+2024-07-22 12:13:02.910 ERROR -Error opening the browser: {}
+2024-07-22 12:13:08.863 INFO  -Opening Firefox browser...
+2024-07-22 12:13:09.478 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 12:13:09.533 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 12:13:22.411 INFO  -FireFox browser opened successfully.
+2024-07-22 12:13:29.807 ERROR -Error opening the browser: {}
+2024-07-22 13:12:58.412 INFO  -Opening Firefox browser...
+2024-07-22 13:13:13.521 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 13:13:13.740 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 13:14:26.338 INFO  -FireFox browser opened successfully.
+2024-07-22 13:15:03.435 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 13:15:03.524 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (594ac7c6-6686-400f-8ec5-c650c34d075b)
+2024-07-22 13:15:03.524 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 13:15:03.570 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 13:15:03.582 INFO  -URL opened successfully.
+2024-07-22 13:15:04.646 INFO  -User looks at the plus sign
+2024-07-22 13:15:04.670 WARN  -Button element not found for type: add
+2024-07-22 13:15:04.754 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-22 13:15:06.055 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-22 13:15:06.057 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-22 13:15:06.074 INFO  -Clicked button: add
+2024-07-22 13:15:06.085 INFO  -Plus sign is visible and clickable
+2024-07-22 13:15:06.089 INFO  -Clicked the plus sign
+2024-07-22 13:15:34.053 INFO  -Opening Firefox browser...
+2024-07-22 13:15:34.320 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 13:15:34.432 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 13:16:07.951 INFO  -FireFox browser opened successfully.
+2024-07-22 13:16:20.851 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 13:16:20.855 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (fcd9fff1-0311-4b6c-8429-56b91aacb0e9)
+2024-07-22 13:16:20.855 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 13:16:20.855 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 13:16:20.873 INFO  -URL opened successfully.
+2024-07-22 13:16:21.111 INFO  -User looks at the Minus sign
+2024-07-22 13:16:21.115 WARN  -Button element not found for type: sub
+2024-07-22 13:16:21.124 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-22 13:16:21.999 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-22 13:16:22.000 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-22 13:16:22.001 INFO  -Clicked button: sub
+2024-07-22 13:16:22.001 INFO  -minus sign is visible and clickable
+2024-07-22 13:16:22.009 INFO  -Clicked the minus sign
+2024-07-22 13:16:32.192 INFO  -Opening Firefox browser...
+2024-07-22 13:16:32.327 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 13:16:32.427 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 13:16:54.594 INFO  -FireFox browser opened successfully.
+2024-07-22 13:17:04.632 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 13:17:04.633 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (a7c433c6-c3b3-4274-8691-93652f00253b)
+2024-07-22 13:17:04.637 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 13:17:04.639 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 13:17:04.640 INFO  -URL opened successfully.
+2024-07-22 13:17:04.878 INFO  -User looks at the Multiply sign
+2024-07-22 13:17:04.898 WARN  -Button element not found for type: mul
+2024-07-22 13:17:04.963 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-22 13:17:07.408 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-22 13:17:07.408 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-22 13:17:07.410 INFO  -Clicked button: mul
+2024-07-22 13:17:07.410 INFO  -multiplicaion sign is visible and clickable
+2024-07-22 13:17:07.410 INFO  -Clicked the Multiply sign
+2024-07-22 13:17:30.624 INFO  -Opening Firefox browser...
+2024-07-22 13:17:31.252 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 13:17:31.426 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 13:18:05.887 INFO  -FireFox browser opened successfully.
+2024-07-22 13:18:15.714 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 13:18:15.751 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (c6fb77a4-fbc4-4b84-aec4-ae5e054284af)
+2024-07-22 13:18:15.752 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 13:18:15.752 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 13:18:15.753 INFO  -URL opened successfully.
+2024-07-22 13:18:17.034 INFO  -User looks at the Division sign
+2024-07-22 13:18:17.053 WARN  -Button element not found for type: div
+2024-07-22 13:18:17.105 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-22 13:18:18.689 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-22 13:18:18.690 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-22 13:18:18.691 INFO  -Clicked button: div
+2024-07-22 13:18:18.695 INFO  -Division sign is visible and clickable
+2024-07-22 13:18:18.710 INFO  -Clicked the division sign
+2024-07-22 13:18:31.631 INFO  -Opening Firefox browser...
+2024-07-22 13:18:32.600 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 13:18:32.691 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 13:18:50.030 INFO  -FireFox browser opened successfully.
+2024-07-22 13:18:53.053 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 13:18:53.054 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (4c21faa1-3663-464a-a674-382ca641492d)
+2024-07-22 13:18:53.105 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 13:18:53.105 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 13:18:53.106 INFO  -URL opened successfully.
+2024-07-22 13:18:53.107 INFO  -User looks at the Equals sign
+2024-07-22 13:18:53.116 WARN  -Button element not found for type: equals
+2024-07-22 13:18:53.122 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-22 13:18:53.879 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-22 13:18:53.880 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-22 13:18:53.880 INFO  -Clicked button: equals
+2024-07-22 13:18:53.881 INFO  -equals sign is visible and clickable
+2024-07-22 13:18:53.881 INFO  -Clicked the equals sign
+2024-07-22 14:08:40.828 INFO  -Opening Firefox browser...
+2024-07-22 14:08:41.760 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 14:08:41.841 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 14:08:53.371 INFO  -FireFox browser opened successfully.
+2024-07-22 14:08:54.537 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 14:08:54.555 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (99ae0a94-fed9-4a57-af4b-edeba2e95a0b)
+2024-07-22 14:08:54.559 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 14:08:54.562 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 14:08:54.563 INFO  -URL opened successfully.
+2024-07-22 14:08:54.599 INFO  -User looks at the plus sign
+2024-07-22 14:08:54.617 WARN  -Button element not found for type: add
+2024-07-22 14:08:54.669 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-22 14:08:55.102 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-22 14:08:55.103 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-22 14:08:55.104 INFO  -Clicked button: add
+2024-07-22 14:08:55.105 INFO  -Plus sign is visible and clickable
+2024-07-22 14:08:55.107 INFO  -Clicked the plus sign
+2024-07-22 14:08:57.509 INFO  -Opening Firefox browser...
+2024-07-22 14:08:57.556 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 14:08:57.587 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 14:09:03.029 INFO  -FireFox browser opened successfully.
+2024-07-22 14:09:03.742 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 14:09:03.743 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (54bb9173-f78a-48e1-bf58-e532d4df0fa4)
+2024-07-22 14:09:03.744 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 14:09:03.745 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 14:09:03.745 INFO  -URL opened successfully.
+2024-07-22 14:09:03.749 INFO  -User looks at the Minus sign
+2024-07-22 14:09:03.751 WARN  -Button element not found for type: sub
+2024-07-22 14:09:03.759 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-22 14:09:04.240 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-22 14:09:04.241 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-22 14:09:04.241 INFO  -Clicked button: sub
+2024-07-22 14:09:04.241 INFO  -minus sign is visible and clickable
+2024-07-22 14:09:04.242 INFO  -Clicked the minus sign
+2024-07-22 14:09:06.483 INFO  -Opening Firefox browser...
+2024-07-22 14:09:06.512 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 14:09:06.533 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 14:09:11.107 INFO  -FireFox browser opened successfully.
+2024-07-22 14:09:11.862 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 14:09:11.914 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (d0c78104-8d64-4b46-a435-ba69301edee2)
+2024-07-22 14:09:11.914 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 14:09:11.914 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 14:09:11.915 INFO  -URL opened successfully.
+2024-07-22 14:09:11.918 INFO  -User looks at the Multiply sign
+2024-07-22 14:09:11.921 WARN  -Button element not found for type: mul
+2024-07-22 14:09:11.927 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-22 14:09:12.300 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-22 14:09:12.300 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-22 14:09:12.300 INFO  -Clicked button: mul
+2024-07-22 14:09:12.301 INFO  -multiplicaion sign is visible and clickable
+2024-07-22 14:09:12.301 INFO  -Clicked the Multiply sign
+2024-07-22 14:09:13.927 INFO  -Opening Firefox browser...
+2024-07-22 14:09:13.965 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 14:09:13.992 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 14:09:18.662 INFO  -FireFox browser opened successfully.
+2024-07-22 14:09:20.024 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 14:09:20.025 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (707e1912-a249-4e65-aa73-347d82c4ced4)
+2024-07-22 14:09:20.025 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 14:09:20.026 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 14:09:20.026 INFO  -URL opened successfully.
+2024-07-22 14:09:20.028 INFO  -User looks at the Division sign
+2024-07-22 14:09:20.031 WARN  -Button element not found for type: div
+2024-07-22 14:09:20.035 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-22 14:09:20.485 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-22 14:09:20.487 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-22 14:09:20.488 INFO  -Clicked button: div
+2024-07-22 14:09:20.488 INFO  -Division sign is visible and clickable
+2024-07-22 14:09:20.491 INFO  -Clicked the division sign
+2024-07-22 14:09:22.611 INFO  -Opening Firefox browser...
+2024-07-22 14:09:22.657 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-22 14:09:22.678 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-22 14:09:27.101 INFO  -FireFox browser opened successfully.
+2024-07-22 14:09:27.717 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-22 14:09:27.721 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (1e4518a6-c5cb-4715-a24a-ba7ec7a62556)
+2024-07-22 14:09:27.722 INFO  -Initialized WebAction in CalculatorModule
+2024-07-22 14:09:27.722 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-22 14:09:27.722 INFO  -URL opened successfully.
+2024-07-22 14:09:27.723 INFO  -User looks at the Equals sign
+2024-07-22 14:09:27.725 WARN  -Button element not found for type: equals
+2024-07-22 14:09:27.728 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-22 14:09:28.116 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-22 14:09:28.116 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-22 14:09:28.116 INFO  -Clicked button: equals
+2024-07-22 14:09:28.117 INFO  -equals sign is visible and clickable
+2024-07-22 14:09:28.117 INFO  -Clicked the equals sign
+2024-07-23 09:59:49.952 INFO  -Opening Firefox browser...
+2024-07-23 09:59:55.994 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 09:59:56.189 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:00:20.236 INFO  -FireFox browser opened successfully.
+2024-07-23 10:00:22.814 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:00:22.898 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (f1afe042-27f9-483b-89f1-a99dde542853)
+2024-07-23 10:00:22.899 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:00:22.954 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:00:22.955 INFO  -URL opened successfully.
+2024-07-23 10:00:23.102 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:23.714 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:23.715 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:23.717 INFO  -Clicked number: 5
+2024-07-23 10:00:23.719 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:24.104 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:24.105 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:24.107 INFO  -Clicked number: 5
+2024-07-23 10:00:24.108 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:24.380 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:24.381 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:00:24.383 INFO  -Clicked number: 5
+2024-07-23 10:00:24.391 INFO  -User hitting operator:
+2024-07-23 10:00:24.472 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:00:24.760 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:00:24.761 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:00:24.761 INFO  -Clicked button: add
+2024-07-23 10:00:24.766 INFO  -Attempting to find element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.051 INFO  -Clicked element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.052 INFO  -Click operation completed for element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.053 INFO  -Clicked number: 6
+2024-07-23 10:00:25.063 INFO  -Attempting to find element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.335 INFO  -Clicked element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.337 INFO  -Click operation completed for element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.337 INFO  -Clicked number: 6
+2024-07-23 10:00:25.338 INFO  -Attempting to find element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.601 INFO  -Clicked element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.602 INFO  -Click operation completed for element located by: By.xpath: //input[@value='6']
+2024-07-23 10:00:25.602 INFO  -Clicked number: 6
+2024-07-23 10:00:25.619 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:00:25.894 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:00:25.895 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:00:25.896 INFO  -Clicked button: equals
+2024-07-23 10:00:25.926 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:00:25.962 INFO  -Attempting to retrieve result...
+2024-07-23 10:00:25.963 INFO  -Checking if element is display
+2024-07-23 10:00:26.306 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (f1afe042-27f9-483b-89f1-a99dde542853)] -> xpath: //*[@id='result']]
+2024-07-23 10:00:26.308 INFO  -Result field element is displayed
+2024-07-23 10:00:26.349 INFO  -Result text retrieved: 1221
+2024-07-23 10:00:26.351 INFO  -Converted result to integer: 1221
+2024-07-23 10:00:26.352 INFO  -Expected result: 1221, Actual result: 1221
+2024-07-23 10:00:36.400 INFO  -Opening Firefox browser...
+2024-07-23 10:00:36.478 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:00:36.525 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:01:03.939 INFO  -FireFox browser opened successfully.
+2024-07-23 10:01:06.456 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:01:06.458 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (62b30d18-4ca9-42ab-9e25-2903bd9fe749)
+2024-07-23 10:01:06.459 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:01:06.460 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:01:06.460 INFO  -URL opened successfully.
+2024-07-23 10:01:06.463 INFO  -Attempting to find element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:07.651 INFO  -Clicked element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:07.652 INFO  -Click operation completed for element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:07.654 INFO  -Clicked number: 7
+2024-07-23 10:01:07.655 INFO  -Attempting to find element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:07.965 INFO  -Clicked element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:07.966 INFO  -Click operation completed for element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:07.967 INFO  -Clicked number: 7
+2024-07-23 10:01:07.970 INFO  -Attempting to find element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:08.294 INFO  -Clicked element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:08.295 INFO  -Click operation completed for element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:08.295 INFO  -Clicked number: 7
+2024-07-23 10:01:08.296 INFO  -Attempting to find element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:08.591 INFO  -Clicked element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:08.592 INFO  -Click operation completed for element located by: By.xpath: //input[@value='7']
+2024-07-23 10:01:08.593 INFO  -Clicked number: 7
+2024-07-23 10:01:08.595 INFO  -User hitting operator:
+2024-07-23 10:01:08.624 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:01:08.912 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:01:08.914 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:01:08.915 INFO  -Clicked button: add
+2024-07-23 10:01:08.917 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:01:09.222 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:01:09.223 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:01:09.224 INFO  -Clicked number: 0
+2024-07-23 10:01:09.246 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:01:09.629 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:01:09.631 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:01:09.632 INFO  -Clicked button: equals
+2024-07-23 10:01:09.635 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:01:09.668 INFO  -Attempting to retrieve result...
+2024-07-23 10:01:09.675 INFO  -Checking if element is display
+2024-07-23 10:01:09.980 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (62b30d18-4ca9-42ab-9e25-2903bd9fe749)] -> xpath: //*[@id='result']]
+2024-07-23 10:01:09.981 INFO  -Result field element is displayed
+2024-07-23 10:01:10.176 INFO  -Result text retrieved: 7777
+2024-07-23 10:01:10.176 INFO  -Converted result to integer: 7777
+2024-07-23 10:01:10.177 INFO  -Expected result: 7777, Actual result: 7777
+2024-07-23 10:01:25.834 INFO  -Opening Firefox browser...
+2024-07-23 10:01:25.965 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:01:26.045 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:01:41.292 INFO  -FireFox browser opened successfully.
+2024-07-23 10:01:43.290 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:01:43.296 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (a8edfd16-b72a-4d36-a356-9f11ad4196a7)
+2024-07-23 10:01:43.296 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:01:43.296 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:01:43.296 INFO  -URL opened successfully.
+2024-07-23 10:01:43.300 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:01:44.544 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:01:44.552 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:01:44.555 INFO  -Clicked number: 0
+2024-07-23 10:01:44.560 INFO  -User hitting operator:
+2024-07-23 10:01:44.570 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:01:44.863 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:01:44.863 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:01:44.863 INFO  -Clicked button: add
+2024-07-23 10:01:44.863 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.173 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.173 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.173 INFO  -Clicked number: 2
+2024-07-23 10:01:45.173 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.466 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.472 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.472 INFO  -Clicked number: 2
+2024-07-23 10:01:45.473 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.783 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.791 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:45.793 INFO  -Clicked number: 2
+2024-07-23 10:01:45.793 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:46.080 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:46.080 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:01:46.081 INFO  -Clicked number: 2
+2024-07-23 10:01:46.092 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:01:46.389 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:01:46.391 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:01:46.391 INFO  -Clicked button: equals
+2024-07-23 10:01:46.391 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:01:46.411 INFO  -Attempting to retrieve result...
+2024-07-23 10:01:46.411 INFO  -Checking if element is display
+2024-07-23 10:01:46.588 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (a8edfd16-b72a-4d36-a356-9f11ad4196a7)] -> xpath: //*[@id='result']]
+2024-07-23 10:01:46.590 INFO  -Result field element is displayed
+2024-07-23 10:01:46.678 INFO  -Result text retrieved: 2222
+2024-07-23 10:01:46.678 INFO  -Converted result to integer: 2222
+2024-07-23 10:01:46.679 INFO  -Expected result: 2222, Actual result: 2222
+2024-07-23 10:01:53.928 INFO  -Opening Firefox browser...
+2024-07-23 10:01:54.039 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:01:54.089 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:02:14.424 INFO  -FireFox browser opened successfully.
+2024-07-23 10:02:20.230 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:02:20.232 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (4c7119a6-a269-47e6-ad8a-761986491a9b)
+2024-07-23 10:02:20.232 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:02:20.232 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:02:20.232 INFO  -URL opened successfully.
+2024-07-23 10:02:20.234 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:20.844 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:20.845 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:20.846 INFO  -Clicked number: 0
+2024-07-23 10:02:20.857 INFO  -User hitting operator:
+2024-07-23 10:02:20.861 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:02:21.331 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:02:21.334 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:02:21.334 INFO  -Clicked button: add
+2024-07-23 10:02:21.337 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:21.612 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:21.614 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:21.614 INFO  -Clicked number: 0
+2024-07-23 10:02:21.625 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:02:22.103 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:02:22.103 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:02:22.103 INFO  -Clicked button: equals
+2024-07-23 10:02:22.112 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:02:22.136 INFO  -Attempting to retrieve result...
+2024-07-23 10:02:22.136 INFO  -Checking if element is display
+2024-07-23 10:02:22.211 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (4c7119a6-a269-47e6-ad8a-761986491a9b)] -> xpath: //*[@id='result']]
+2024-07-23 10:02:22.216 INFO  -Result field element is displayed
+2024-07-23 10:02:22.256 INFO  -Result text retrieved: 0
+2024-07-23 10:02:22.256 INFO  -Converted result to integer: 0
+2024-07-23 10:02:22.256 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:02:28.545 INFO  -Opening Firefox browser...
+2024-07-23 10:02:28.651 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:02:28.691 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:02:46.392 INFO  -FireFox browser opened successfully.
+2024-07-23 10:02:48.802 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:02:48.803 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (985208bc-c1d1-4219-996f-eda971bdcee6)
+2024-07-23 10:02:48.803 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:02:48.803 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:02:48.803 INFO  -URL opened successfully.
+2024-07-23 10:02:48.839 INFO  -Entering number: 10
+2024-07-23 10:02:48.848 INFO  -Entering digit: 1
+2024-07-23 10:02:48.849 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:02:49.725 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:02:49.726 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:02:49.726 INFO  -Clicked number: 1
+2024-07-23 10:02:49.726 INFO  -Entering digit: 0
+2024-07-23 10:02:49.727 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:50.112 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:50.113 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:50.113 INFO  -Clicked number: 0
+2024-07-23 10:02:50.124 INFO  -User hitting operator:
+2024-07-23 10:02:50.128 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:02:50.459 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:02:50.460 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:02:50.460 INFO  -Clicked button: add
+2024-07-23 10:02:50.464 INFO  -Entering number: 20
+2024-07-23 10:02:50.465 INFO  -Entering digit: 2
+2024-07-23 10:02:50.466 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:02:50.845 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:02:50.846 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:02:50.846 INFO  -Clicked number: 2
+2024-07-23 10:02:50.846 INFO  -Entering digit: 0
+2024-07-23 10:02:50.847 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:51.109 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:51.110 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:02:51.110 INFO  -Clicked number: 0
+2024-07-23 10:02:51.118 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:02:51.411 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:02:51.411 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:02:51.417 INFO  -Clicked button: equals
+2024-07-23 10:02:51.431 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:02:51.485 INFO  -Attempting to retrieve result...
+2024-07-23 10:02:51.486 INFO  -Checking if element is display
+2024-07-23 10:02:51.573 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (985208bc-c1d1-4219-996f-eda971bdcee6)] -> xpath: //*[@id='result']]
+2024-07-23 10:02:51.574 INFO  -Result field element is displayed
+2024-07-23 10:02:51.626 INFO  -Result text retrieved: 30
+2024-07-23 10:02:51.626 INFO  -Converted result to integer: 30
+2024-07-23 10:02:51.627 INFO  -Expected result: 30, Actual result: 30
+2024-07-23 10:02:59.972 INFO  -Opening Firefox browser...
+2024-07-23 10:03:00.120 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:03:00.231 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:03:26.291 INFO  -FireFox browser opened successfully.
+2024-07-23 10:03:30.203 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:03:30.206 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (473e9f08-34bd-4b5d-8725-33a558a2ae20)
+2024-07-23 10:03:30.206 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:03:30.206 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:03:30.207 INFO  -URL opened successfully.
+2024-07-23 10:03:30.216 INFO  -Entering number: 20
+2024-07-23 10:03:30.217 INFO  -Entering digit: 2
+2024-07-23 10:03:30.219 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:03:31.634 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:03:31.635 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:03:31.635 INFO  -Clicked number: 2
+2024-07-23 10:03:31.636 INFO  -Entering digit: 0
+2024-07-23 10:03:31.637 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:03:32.182 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:03:32.183 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:03:32.183 INFO  -Clicked number: 0
+2024-07-23 10:03:32.186 INFO  -User hitting operator:
+2024-07-23 10:03:32.189 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:03:32.567 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:03:32.567 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:03:32.567 INFO  -Clicked button: add
+2024-07-23 10:03:32.574 INFO  -Entering number: 5
+2024-07-23 10:03:32.574 INFO  -Entering digit: 5
+2024-07-23 10:03:32.575 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:03:33.422 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:03:33.423 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:03:33.424 INFO  -Clicked number: 5
+2024-07-23 10:03:33.433 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:03:34.061 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:03:34.063 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:03:34.063 INFO  -Clicked button: equals
+2024-07-23 10:03:34.066 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:03:34.201 INFO  -Attempting to retrieve result...
+2024-07-23 10:03:34.201 INFO  -Checking if element is display
+2024-07-23 10:03:34.336 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (473e9f08-34bd-4b5d-8725-33a558a2ae20)] -> xpath: //*[@id='result']]
+2024-07-23 10:03:34.336 INFO  -Result field element is displayed
+2024-07-23 10:03:34.385 INFO  -Result text retrieved: 25
+2024-07-23 10:03:34.385 INFO  -Converted result to integer: 25
+2024-07-23 10:03:34.386 INFO  -Expected result: 25, Actual result: 25
+2024-07-23 10:03:46.260 INFO  -Opening Firefox browser...
+2024-07-23 10:03:46.340 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:03:46.387 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:04:21.480 INFO  -FireFox browser opened successfully.
+2024-07-23 10:04:24.320 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:04:24.322 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (16332cf6-f383-4a49-9d01-374b887a4dd8)
+2024-07-23 10:04:24.323 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:04:24.324 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:04:24.326 INFO  -URL opened successfully.
+2024-07-23 10:04:24.331 INFO  -Entering number: 55
+2024-07-23 10:04:24.331 INFO  -Entering digit: 5
+2024-07-23 10:04:24.332 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:25.836 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:25.836 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:25.836 INFO  -Clicked number: 5
+2024-07-23 10:04:25.836 INFO  -Entering digit: 5
+2024-07-23 10:04:25.843 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:26.125 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:26.126 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:26.127 INFO  -Clicked number: 5
+2024-07-23 10:04:26.134 INFO  -User hitting operator:
+2024-07-23 10:04:26.144 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:04:26.463 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:04:26.464 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:04:26.464 INFO  -Clicked button: add
+2024-07-23 10:04:26.466 INFO  -Entering number: 55
+2024-07-23 10:04:26.467 INFO  -Entering digit: 5
+2024-07-23 10:04:26.467 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:26.829 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:26.830 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:26.831 INFO  -Clicked number: 5
+2024-07-23 10:04:26.832 INFO  -Entering digit: 5
+2024-07-23 10:04:26.833 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:27.105 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:27.106 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:04:27.107 INFO  -Clicked number: 5
+2024-07-23 10:04:27.214 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:04:27.568 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:04:27.568 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:04:27.568 INFO  -Clicked button: equals
+2024-07-23 10:04:27.571 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:04:27.596 INFO  -Attempting to retrieve result...
+2024-07-23 10:04:27.597 INFO  -Checking if element is display
+2024-07-23 10:04:27.796 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (16332cf6-f383-4a49-9d01-374b887a4dd8)] -> xpath: //*[@id='result']]
+2024-07-23 10:04:27.796 INFO  -Result field element is displayed
+2024-07-23 10:04:28.115 INFO  -Result text retrieved: 110
+2024-07-23 10:04:28.115 INFO  -Converted result to integer: 110
+2024-07-23 10:04:28.116 INFO  -Expected result: 110, Actual result: 110
+2024-07-23 10:04:38.126 INFO  -Opening Firefox browser...
+2024-07-23 10:04:38.406 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:04:38.536 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:05:00.431 INFO  -FireFox browser opened successfully.
+2024-07-23 10:05:05.794 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:05:05.795 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (68ff9fc0-6db8-4c9f-8e92-976a74d44485)
+2024-07-23 10:05:05.795 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:05:05.796 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:05:05.796 INFO  -URL opened successfully.
+2024-07-23 10:05:05.797 INFO  -Entering number: 175
+2024-07-23 10:05:05.799 INFO  -Entering digit: 1
+2024-07-23 10:05:05.811 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:05:06.947 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:05:06.947 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:05:06.947 INFO  -Clicked number: 1
+2024-07-23 10:05:06.949 INFO  -Entering digit: 7
+2024-07-23 10:05:06.949 INFO  -Attempting to find element located by: By.xpath: //input[@value='7']
+2024-07-23 10:05:07.347 INFO  -Clicked element located by: By.xpath: //input[@value='7']
+2024-07-23 10:05:07.350 INFO  -Click operation completed for element located by: By.xpath: //input[@value='7']
+2024-07-23 10:05:07.350 INFO  -Clicked number: 7
+2024-07-23 10:05:07.350 INFO  -Entering digit: 5
+2024-07-23 10:05:07.350 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:05:08.272 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:05:08.273 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:05:08.273 INFO  -Clicked number: 5
+2024-07-23 10:05:08.278 INFO  -User hitting operator:
+2024-07-23 10:05:08.284 INFO  -Attempting to find element located by: By.xpath: //input[@value='+']
+2024-07-23 10:05:08.727 INFO  -Clicked element located by: By.xpath: //input[@value='+']
+2024-07-23 10:05:08.727 INFO  -Click operation completed for element located by: By.xpath: //input[@value='+']
+2024-07-23 10:05:08.728 INFO  -Clicked button: add
+2024-07-23 10:05:08.733 INFO  -Entering number: 5
+2024-07-23 10:05:08.735 INFO  -Entering digit: 5
+2024-07-23 10:05:08.737 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:05:09.075 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:05:09.075 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:05:09.076 INFO  -Clicked number: 5
+2024-07-23 10:05:09.092 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:05:09.390 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:05:09.391 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:05:09.391 INFO  -Clicked button: equals
+2024-07-23 10:05:09.394 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:05:09.427 INFO  -Attempting to retrieve result...
+2024-07-23 10:05:09.431 INFO  -Checking if element is display
+2024-07-23 10:05:09.642 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (68ff9fc0-6db8-4c9f-8e92-976a74d44485)] -> xpath: //*[@id='result']]
+2024-07-23 10:05:09.642 INFO  -Result field element is displayed
+2024-07-23 10:05:09.701 INFO  -Result text retrieved: 180
+2024-07-23 10:05:09.701 INFO  -Converted result to integer: 180
+2024-07-23 10:05:09.701 INFO  -Expected result: 180, Actual result: 180
+2024-07-23 10:05:39.245 INFO  -Opening Firefox browser...
+2024-07-23 10:05:39.791 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:05:40.015 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:06:11.325 INFO  -FireFox browser opened successfully.
+2024-07-23 10:07:04.759 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:07:04.759 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (901218ad-0ea5-4e9f-8617-fd8465d10198)
+2024-07-23 10:07:04.764 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:07:04.764 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:07:04.764 INFO  -URL opened successfully.
+2024-07-23 10:07:04.769 INFO  -Entering number: 10
+2024-07-23 10:07:04.769 INFO  -Entering digit: 1
+2024-07-23 10:07:04.769 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:07:06.922 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:07:06.935 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:07:06.935 INFO  -Clicked number: 1
+2024-07-23 10:07:06.935 INFO  -Entering digit: 0
+2024-07-23 10:07:06.936 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:07:07.506 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:07:07.506 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:07:07.507 INFO  -Clicked number: 0
+2024-07-23 10:07:07.516 INFO  -User hitting operator:
+2024-07-23 10:07:07.542 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:07:08.452 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:07:08.453 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:07:08.453 INFO  -Clicked button: mul
+2024-07-23 10:07:08.455 INFO  -Entering number: 20
+2024-07-23 10:07:08.455 INFO  -Entering digit: 2
+2024-07-23 10:07:08.455 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:07:09.122 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:07:09.123 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:07:09.123 INFO  -Clicked number: 2
+2024-07-23 10:07:09.123 INFO  -Entering digit: 0
+2024-07-23 10:07:09.123 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:07:09.500 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:07:09.501 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:07:09.501 INFO  -Clicked number: 0
+2024-07-23 10:07:09.512 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:07:09.790 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:07:09.790 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:07:09.790 INFO  -Clicked button: equals
+2024-07-23 10:07:09.792 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:07:09.804 INFO  -Attempting to retrieve result...
+2024-07-23 10:07:09.804 INFO  -Checking if element is display
+2024-07-23 10:07:09.992 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (901218ad-0ea5-4e9f-8617-fd8465d10198)] -> xpath: //*[@id='result']]
+2024-07-23 10:07:09.993 INFO  -Result field element is displayed
+2024-07-23 10:07:10.066 INFO  -Result text retrieved: 200
+2024-07-23 10:07:10.066 INFO  -Converted result to integer: 200
+2024-07-23 10:07:10.067 INFO  -Expected result: 200, Actual result: 200
+2024-07-23 10:07:16.667 INFO  -Opening Firefox browser...
+2024-07-23 10:07:16.999 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:07:17.191 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:07:59.534 INFO  -FireFox browser opened successfully.
+2024-07-23 10:08:43.633 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:08:43.634 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (218dfcd0-8f99-427f-8c5d-ade608968843)
+2024-07-23 10:08:43.634 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:08:43.634 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:08:43.634 INFO  -URL opened successfully.
+2024-07-23 10:08:43.642 INFO  -Entering number: 0
+2024-07-23 10:08:43.642 INFO  -Entering digit: 0
+2024-07-23 10:08:43.644 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:08:45.167 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:08:45.167 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:08:45.167 INFO  -Clicked number: 0
+2024-07-23 10:08:45.174 INFO  -User hitting operator:
+2024-07-23 10:08:45.179 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:08:45.682 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:08:45.682 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:08:45.682 INFO  -Clicked button: mul
+2024-07-23 10:08:45.686 INFO  -Entering number: 20
+2024-07-23 10:08:45.693 INFO  -Entering digit: 2
+2024-07-23 10:08:45.694 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:08:46.130 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:08:46.130 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:08:46.130 INFO  -Clicked number: 2
+2024-07-23 10:08:46.130 INFO  -Entering digit: 0
+2024-07-23 10:08:46.130 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:08:47.259 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:08:47.259 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:08:47.260 INFO  -Clicked number: 0
+2024-07-23 10:08:47.312 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:08:47.690 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:08:47.693 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:08:47.694 INFO  -Clicked button: equals
+2024-07-23 10:08:47.699 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:08:48.130 INFO  -Attempting to retrieve result...
+2024-07-23 10:08:48.155 INFO  -Checking if element is display
+2024-07-23 10:08:48.538 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (218dfcd0-8f99-427f-8c5d-ade608968843)] -> xpath: //*[@id='result']]
+2024-07-23 10:08:48.539 INFO  -Result field element is displayed
+2024-07-23 10:08:48.718 INFO  -Result text retrieved: 0
+2024-07-23 10:08:48.718 INFO  -Converted result to integer: 0
+2024-07-23 10:08:48.718 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:09:16.338 INFO  -Opening Firefox browser...
+2024-07-23 10:09:17.663 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:09:18.376 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:09:33.148 INFO  -FireFox browser opened successfully.
+2024-07-23 10:09:35.276 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:09:35.277 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (c8626bdd-aab5-421a-9ee1-24c2391b9b36)
+2024-07-23 10:09:35.277 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:09:35.278 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:09:35.278 INFO  -URL opened successfully.
+2024-07-23 10:09:35.281 INFO  -Entering number: 99999
+2024-07-23 10:09:35.281 INFO  -Entering digit: 9
+2024-07-23 10:09:35.290 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.270 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.270 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.270 INFO  -Clicked number: 9
+2024-07-23 10:09:36.271 INFO  -Entering digit: 9
+2024-07-23 10:09:36.271 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.520 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.521 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.521 INFO  -Clicked number: 9
+2024-07-23 10:09:36.521 INFO  -Entering digit: 9
+2024-07-23 10:09:36.521 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.788 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.788 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:36.788 INFO  -Clicked number: 9
+2024-07-23 10:09:36.789 INFO  -Entering digit: 9
+2024-07-23 10:09:36.790 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:37.063 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:37.063 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:37.063 INFO  -Clicked number: 9
+2024-07-23 10:09:37.063 INFO  -Entering digit: 9
+2024-07-23 10:09:37.064 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:37.457 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:37.457 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:09:37.458 INFO  -Clicked number: 9
+2024-07-23 10:09:37.460 INFO  -User hitting operator:
+2024-07-23 10:09:37.463 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:09:37.745 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:09:37.864 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:09:37.864 INFO  -Clicked button: mul
+2024-07-23 10:09:37.869 INFO  -Entering number: 0
+2024-07-23 10:09:37.871 INFO  -Entering digit: 0
+2024-07-23 10:09:37.872 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:09:38.168 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:09:38.168 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:09:38.168 INFO  -Clicked number: 0
+2024-07-23 10:09:38.198 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:09:38.507 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:09:38.508 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:09:38.508 INFO  -Clicked button: equals
+2024-07-23 10:09:38.509 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:09:38.524 INFO  -Attempting to retrieve result...
+2024-07-23 10:09:38.525 INFO  -Checking if element is display
+2024-07-23 10:09:38.603 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (c8626bdd-aab5-421a-9ee1-24c2391b9b36)] -> xpath: //*[@id='result']]
+2024-07-23 10:09:38.604 INFO  -Result field element is displayed
+2024-07-23 10:09:38.682 INFO  -Result text retrieved: 0
+2024-07-23 10:09:38.682 INFO  -Converted result to integer: 0
+2024-07-23 10:09:38.682 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:09:42.391 INFO  -Opening Firefox browser...
+2024-07-23 10:09:42.473 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:09:42.564 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:10:03.852 INFO  -FireFox browser opened successfully.
+2024-07-23 10:10:07.889 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:10:07.890 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (b7f55415-397f-4845-9368-7e85c6064083)
+2024-07-23 10:10:07.890 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:10:07.890 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:10:07.890 INFO  -URL opened successfully.
+2024-07-23 10:10:07.894 INFO  -Entering number: 10
+2024-07-23 10:10:07.895 INFO  -Entering digit: 1
+2024-07-23 10:10:07.895 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:10:08.877 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:10:08.877 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:10:08.877 INFO  -Clicked number: 1
+2024-07-23 10:10:08.877 INFO  -Entering digit: 0
+2024-07-23 10:10:08.877 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:10:09.415 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:10:09.415 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:10:09.415 INFO  -Clicked number: 0
+2024-07-23 10:10:09.427 INFO  -User hitting operator:
+2024-07-23 10:10:09.452 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:10:10.047 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:10:10.049 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:10:10.049 INFO  -Clicked button: mul
+2024-07-23 10:10:10.072 INFO  -Entering number: -5
+2024-07-23 10:10:10.072 INFO  -Clicking subtraction button
+2024-07-23 10:10:10.072 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:10.595 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:10.595 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:10.596 INFO  -Clicked button: sub
+2024-07-23 10:10:10.602 INFO  -Entering digit: 5
+2024-07-23 10:10:10.602 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:10.923 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:10.923 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:10.923 INFO  -Clicked number: 5
+2024-07-23 10:10:10.956 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:10:11.304 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:10:11.304 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:10:11.306 INFO  -Clicked button: equals
+2024-07-23 10:10:11.308 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:10:11.345 INFO  -Attempting to retrieve result...
+2024-07-23 10:10:11.345 INFO  -Checking if element is display
+2024-07-23 10:10:11.441 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (b7f55415-397f-4845-9368-7e85c6064083)] -> xpath: //*[@id='result']]
+2024-07-23 10:10:11.441 INFO  -Result field element is displayed
+2024-07-23 10:10:11.485 INFO  -Result text retrieved: -50
+2024-07-23 10:10:11.485 INFO  -Converted result to integer: -50
+2024-07-23 10:10:11.485 INFO  -Expected result: -50, Actual result: -50
+2024-07-23 10:10:23.371 INFO  -Opening Firefox browser...
+2024-07-23 10:10:23.482 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:10:23.658 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:10:51.458 INFO  -FireFox browser opened successfully.
+2024-07-23 10:10:55.650 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:10:55.651 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (3e1ba62a-ae83-44e9-ad4f-5a8e025fc6ff)
+2024-07-23 10:10:55.651 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:10:55.651 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:10:55.651 INFO  -URL opened successfully.
+2024-07-23 10:10:55.653 INFO  -Entering number: -510
+2024-07-23 10:10:55.654 INFO  -Clicking subtraction button
+2024-07-23 10:10:55.656 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:56.757 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:56.757 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:56.757 INFO  -Clicked button: sub
+2024-07-23 10:10:56.758 INFO  -Entering digit: 5
+2024-07-23 10:10:56.758 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:57.189 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:57.189 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:57.189 INFO  -Clicked number: 5
+2024-07-23 10:10:57.189 INFO  -Entering digit: 1
+2024-07-23 10:10:57.189 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:10:57.504 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:10:57.504 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:10:57.506 INFO  -Clicked number: 1
+2024-07-23 10:10:57.506 INFO  -Entering digit: 0
+2024-07-23 10:10:57.506 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:10:57.888 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:10:57.888 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:10:57.888 INFO  -Clicked number: 0
+2024-07-23 10:10:57.915 INFO  -User hitting operator:
+2024-07-23 10:10:57.919 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:10:58.235 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:10:58.238 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:10:58.238 INFO  -Clicked button: mul
+2024-07-23 10:10:58.250 INFO  -Entering number: -5
+2024-07-23 10:10:58.251 INFO  -Clicking subtraction button
+2024-07-23 10:10:58.256 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:58.780 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:58.780 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:10:58.780 INFO  -Clicked button: sub
+2024-07-23 10:10:58.781 INFO  -Entering digit: 5
+2024-07-23 10:10:58.781 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:59.347 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:59.347 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:10:59.347 INFO  -Clicked number: 5
+2024-07-23 10:10:59.408 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:11:00.038 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:11:00.038 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:11:00.038 INFO  -Clicked button: equals
+2024-07-23 10:11:00.040 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:11:00.097 INFO  -Attempting to retrieve result...
+2024-07-23 10:11:00.098 INFO  -Checking if element is display
+2024-07-23 10:11:00.253 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (3e1ba62a-ae83-44e9-ad4f-5a8e025fc6ff)] -> xpath: //*[@id='result']]
+2024-07-23 10:11:00.255 INFO  -Result field element is displayed
+2024-07-23 10:11:00.348 INFO  -Result text retrieved: 2550
+2024-07-23 10:11:00.349 INFO  -Converted result to integer: 2550
+2024-07-23 10:11:00.349 INFO  -Expected result: 2550, Actual result: 2550
+2024-07-23 10:11:09.440 INFO  -Opening Firefox browser...
+2024-07-23 10:11:09.502 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:11:09.603 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:11:34.536 INFO  -FireFox browser opened successfully.
+2024-07-23 10:11:49.470 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:11:49.471 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (8a94d605-d5aa-43a4-82fb-21571063c5d0)
+2024-07-23 10:11:49.478 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:11:49.479 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:11:49.479 INFO  -URL opened successfully.
+2024-07-23 10:11:49.481 INFO  -Entering number: 0
+2024-07-23 10:11:49.482 INFO  -Entering digit: 0
+2024-07-23 10:11:49.482 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:11:51.584 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:11:51.585 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:11:51.585 INFO  -Clicked number: 0
+2024-07-23 10:11:51.585 INFO  -User hitting operator:
+2024-07-23 10:11:51.595 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:11:52.018 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:11:52.018 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:11:52.018 INFO  -Clicked button: mul
+2024-07-23 10:11:52.028 INFO  -Entering number: 0
+2024-07-23 10:11:52.028 INFO  -Entering digit: 0
+2024-07-23 10:11:52.028 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:11:52.428 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:11:52.430 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:11:52.430 INFO  -Clicked number: 0
+2024-07-23 10:11:52.441 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:11:52.976 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:11:52.979 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:11:52.979 INFO  -Clicked button: equals
+2024-07-23 10:11:52.979 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:11:53.064 INFO  -Attempting to retrieve result...
+2024-07-23 10:11:53.064 INFO  -Checking if element is display
+2024-07-23 10:11:53.285 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (8a94d605-d5aa-43a4-82fb-21571063c5d0)] -> xpath: //*[@id='result']]
+2024-07-23 10:11:53.285 INFO  -Result field element is displayed
+2024-07-23 10:11:53.378 INFO  -Result text retrieved: 0
+2024-07-23 10:11:53.378 INFO  -Converted result to integer: 0
+2024-07-23 10:11:53.378 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:12:09.678 INFO  -Opening Firefox browser...
+2024-07-23 10:12:09.740 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:12:09.885 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:12:48.646 INFO  -FireFox browser opened successfully.
+2024-07-23 10:12:58.338 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:12:58.339 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (fd76fe9b-d690-48b5-b68c-6a154674d329)
+2024-07-23 10:12:58.339 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:12:58.340 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:12:58.340 INFO  -URL opened successfully.
+2024-07-23 10:12:58.342 INFO  -Entering number: 0
+2024-07-23 10:12:58.342 INFO  -Entering digit: 0
+2024-07-23 10:12:58.342 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:00.196 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:00.196 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:00.196 INFO  -Clicked number: 0
+2024-07-23 10:13:00.198 INFO  -User hitting operator:
+2024-07-23 10:13:00.261 INFO  -Attempting to find element located by: By.xpath: //input[@value='*']
+2024-07-23 10:13:00.741 INFO  -Clicked element located by: By.xpath: //input[@value='*']
+2024-07-23 10:13:00.741 INFO  -Click operation completed for element located by: By.xpath: //input[@value='*']
+2024-07-23 10:13:00.741 INFO  -Clicked button: mul
+2024-07-23 10:13:00.746 INFO  -Entering number: -9999
+2024-07-23 10:13:00.746 INFO  -Clicking subtraction button
+2024-07-23 10:13:00.748 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:13:01.203 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:13:01.204 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:13:01.204 INFO  -Clicked button: sub
+2024-07-23 10:13:01.204 INFO  -Entering digit: 9
+2024-07-23 10:13:01.257 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:01.706 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:01.706 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:01.707 INFO  -Clicked number: 9
+2024-07-23 10:13:01.707 INFO  -Entering digit: 9
+2024-07-23 10:13:01.707 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:01.999 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:01.999 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:01.999 INFO  -Clicked number: 9
+2024-07-23 10:13:02.000 INFO  -Entering digit: 9
+2024-07-23 10:13:02.000 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:02.330 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:02.330 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:02.341 INFO  -Clicked number: 9
+2024-07-23 10:13:02.346 INFO  -Entering digit: 9
+2024-07-23 10:13:02.346 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:02.727 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:02.727 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:13:02.727 INFO  -Clicked number: 9
+2024-07-23 10:13:02.763 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:13:03.181 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:13:03.187 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:13:03.198 INFO  -Clicked button: equals
+2024-07-23 10:13:03.198 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:13:03.304 INFO  -Attempting to retrieve result...
+2024-07-23 10:13:03.305 INFO  -Checking if element is display
+2024-07-23 10:13:03.531 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (fd76fe9b-d690-48b5-b68c-6a154674d329)] -> xpath: //*[@id='result']]
+2024-07-23 10:13:03.536 INFO  -Result field element is displayed
+2024-07-23 10:13:03.646 INFO  -Result text retrieved: 0
+2024-07-23 10:13:03.646 INFO  -Converted result to integer: 0
+2024-07-23 10:13:03.646 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:13:15.966 INFO  -Opening Firefox browser...
+2024-07-23 10:13:16.071 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:13:16.148 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:13:32.705 INFO  -FireFox browser opened successfully.
+2024-07-23 10:13:43.612 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:13:43.612 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (217f87f7-f56d-4cc4-a47b-a23bbf9d1ee7)
+2024-07-23 10:13:43.612 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:13:43.612 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:13:43.612 INFO  -URL opened successfully.
+2024-07-23 10:13:43.620 INFO  -Entering number: 100
+2024-07-23 10:13:43.620 INFO  -Entering digit: 1
+2024-07-23 10:13:43.621 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:13:45.309 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:13:45.309 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:13:45.313 INFO  -Clicked number: 1
+2024-07-23 10:13:45.314 INFO  -Entering digit: 0
+2024-07-23 10:13:45.314 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:45.642 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:45.643 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:45.645 INFO  -Clicked number: 0
+2024-07-23 10:13:45.645 INFO  -Entering digit: 0
+2024-07-23 10:13:45.645 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:45.963 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:45.964 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:45.965 INFO  -Clicked number: 0
+2024-07-23 10:13:45.969 INFO  -User hitting operator:
+2024-07-23 10:13:46.008 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:13:46.311 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:13:46.311 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:13:46.312 INFO  -Clicked button: div
+2024-07-23 10:13:46.350 INFO  -Entering number: 20
+2024-07-23 10:13:46.350 INFO  -Entering digit: 2
+2024-07-23 10:13:46.350 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:13:46.804 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:13:46.804 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:13:46.804 INFO  -Clicked number: 2
+2024-07-23 10:13:46.805 INFO  -Entering digit: 0
+2024-07-23 10:13:46.805 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:47.726 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:47.727 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:13:47.727 INFO  -Clicked number: 0
+2024-07-23 10:13:47.753 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:13:48.157 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:13:48.158 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:13:48.158 INFO  -Clicked button: equals
+2024-07-23 10:13:48.160 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:13:48.207 INFO  -Attempting to retrieve result...
+2024-07-23 10:13:48.207 INFO  -Checking if element is display
+2024-07-23 10:13:48.503 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (217f87f7-f56d-4cc4-a47b-a23bbf9d1ee7)] -> xpath: //*[@id='result']]
+2024-07-23 10:13:48.503 INFO  -Result field element is displayed
+2024-07-23 10:13:48.554 INFO  -Result text retrieved: 5
+2024-07-23 10:13:48.554 INFO  -Converted result to integer: 5
+2024-07-23 10:13:48.554 INFO  -Expected result: 5, Actual result: 5
+2024-07-23 10:13:58.172 INFO  -Opening Firefox browser...
+2024-07-23 10:13:58.361 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:13:59.103 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:16:31.329 ERROR -Error opening the browser: {}
+2024-07-23 10:16:33.451 INFO  -Opening Firefox browser...
+2024-07-23 10:16:34.055 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:16:34.194 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:17:15.879 INFO  -FireFox browser opened successfully.
+2024-07-23 10:17:24.660 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:17:24.661 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (eb4f1a22-d858-47b9-b670-1fd647219ca2)
+2024-07-23 10:17:24.662 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:17:24.663 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:17:24.663 INFO  -URL opened successfully.
+2024-07-23 10:17:24.671 INFO  -Entering number: 100
+2024-07-23 10:17:24.677 INFO  -Entering digit: 1
+2024-07-23 10:17:24.678 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:17:25.702 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:17:25.703 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:17:25.711 INFO  -Clicked number: 1
+2024-07-23 10:17:25.712 INFO  -Entering digit: 0
+2024-07-23 10:17:25.712 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:26.084 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:26.084 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:26.084 INFO  -Clicked number: 0
+2024-07-23 10:17:26.084 INFO  -Entering digit: 0
+2024-07-23 10:17:26.085 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:26.358 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:26.359 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:26.359 INFO  -Clicked number: 0
+2024-07-23 10:17:26.364 INFO  -User hitting operator:
+2024-07-23 10:17:26.371 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:17:26.690 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:17:26.691 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:17:26.691 INFO  -Clicked button: div
+2024-07-23 10:17:26.694 INFO  -Entering number: 0
+2024-07-23 10:17:26.695 INFO  -Entering digit: 0
+2024-07-23 10:17:26.695 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:27.064 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:27.064 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:27.065 INFO  -Clicked number: 0
+2024-07-23 10:17:27.088 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:17:27.444 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:17:27.444 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:17:27.454 INFO  -Clicked button: equals
+2024-07-23 10:17:27.598 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:17:27.659 INFO  -Attempting to retrieve error result...
+2024-07-23 10:17:27.661 INFO  -Checking if element is display
+2024-07-23 10:17:27.987 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (eb4f1a22-d858-47b9-b670-1fd647219ca2)] -> xpath: //*[@id='result']]
+2024-07-23 10:17:27.987 INFO  -Error result field element is displayed
+2024-07-23 10:17:28.297 INFO  -Error result text retrieved: Infinity
+2024-07-23 10:17:28.297 INFO  -Expected result: Infinity, Actual result: Infinity
+2024-07-23 10:17:35.909 INFO  -Opening Firefox browser...
+2024-07-23 10:17:35.982 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:17:36.052 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:17:49.658 INFO  -FireFox browser opened successfully.
+2024-07-23 10:17:53.557 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:17:53.557 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (9db2594c-ceab-43b4-b1d9-998092bdc514)
+2024-07-23 10:17:53.558 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:17:53.558 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:17:53.558 INFO  -URL opened successfully.
+2024-07-23 10:17:53.583 INFO  -Entering number: 99999
+2024-07-23 10:17:53.584 INFO  -Entering digit: 9
+2024-07-23 10:17:53.661 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:55.595 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:55.596 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:55.596 INFO  -Clicked number: 9
+2024-07-23 10:17:55.625 INFO  -Entering digit: 9
+2024-07-23 10:17:55.625 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.231 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.231 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.232 INFO  -Clicked number: 9
+2024-07-23 10:17:56.233 INFO  -Entering digit: 9
+2024-07-23 10:17:56.234 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.538 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.538 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.538 INFO  -Clicked number: 9
+2024-07-23 10:17:56.539 INFO  -Entering digit: 9
+2024-07-23 10:17:56.539 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.798 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.799 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:56.799 INFO  -Clicked number: 9
+2024-07-23 10:17:56.799 INFO  -Entering digit: 9
+2024-07-23 10:17:56.800 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:57.054 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:57.054 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:17:57.054 INFO  -Clicked number: 9
+2024-07-23 10:17:57.062 INFO  -User hitting operator:
+2024-07-23 10:17:57.069 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:17:57.360 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:17:57.360 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:17:57.361 INFO  -Clicked button: div
+2024-07-23 10:17:57.416 INFO  -Entering number: 0
+2024-07-23 10:17:57.417 INFO  -Entering digit: 0
+2024-07-23 10:17:57.417 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:57.727 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:57.727 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:17:57.728 INFO  -Clicked number: 0
+2024-07-23 10:17:57.811 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:17:58.309 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:17:58.309 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:17:58.309 INFO  -Clicked button: equals
+2024-07-23 10:17:58.311 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:17:58.369 INFO  -Attempting to retrieve error result...
+2024-07-23 10:17:58.370 INFO  -Checking if element is display
+2024-07-23 10:17:58.489 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (9db2594c-ceab-43b4-b1d9-998092bdc514)] -> xpath: //*[@id='result']]
+2024-07-23 10:17:58.489 INFO  -Error result field element is displayed
+2024-07-23 10:17:58.552 INFO  -Error result text retrieved: Infinity
+2024-07-23 10:17:58.553 INFO  -Expected result: Infinity, Actual result: Infinity
+2024-07-23 10:18:04.055 INFO  -Opening Firefox browser...
+2024-07-23 10:18:04.101 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:18:04.130 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:18:15.454 INFO  -FireFox browser opened successfully.
+2024-07-23 10:18:18.207 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:18:18.207 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (e14cc1c9-44f3-4e57-9f12-2d673664c9b3)
+2024-07-23 10:18:18.207 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:18:18.207 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:18:18.207 INFO  -URL opened successfully.
+2024-07-23 10:18:18.216 INFO  -Entering number: 999
+2024-07-23 10:18:18.216 INFO  -Entering digit: 9
+2024-07-23 10:18:18.216 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:19.343 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:19.343 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:19.343 INFO  -Clicked number: 9
+2024-07-23 10:18:19.406 INFO  -Entering digit: 9
+2024-07-23 10:18:19.406 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:19.791 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:19.791 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:19.792 INFO  -Clicked number: 9
+2024-07-23 10:18:19.792 INFO  -Entering digit: 9
+2024-07-23 10:18:19.792 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:20.094 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:20.096 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:18:20.096 INFO  -Clicked number: 9
+2024-07-23 10:18:20.099 INFO  -User hitting operator:
+2024-07-23 10:18:20.103 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:18:20.410 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:18:20.411 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:18:20.411 INFO  -Clicked button: div
+2024-07-23 10:18:20.417 INFO  -Entering number: 52
+2024-07-23 10:18:20.417 INFO  -Entering digit: 5
+2024-07-23 10:18:20.417 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:18:20.718 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:18:20.718 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:18:20.719 INFO  -Clicked number: 5
+2024-07-23 10:18:20.719 INFO  -Entering digit: 2
+2024-07-23 10:18:20.719 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:18:21.092 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:18:21.093 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:18:21.093 INFO  -Clicked number: 2
+2024-07-23 10:18:21.099 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:18:21.419 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:18:21.419 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:18:21.419 INFO  -Clicked button: equals
+2024-07-23 10:18:21.423 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:18:21.450 INFO  -Attempting to retrieve error result...
+2024-07-23 10:18:21.451 INFO  -Checking if element is display
+2024-07-23 10:18:21.657 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (e14cc1c9-44f3-4e57-9f12-2d673664c9b3)] -> xpath: //*[@id='result']]
+2024-07-23 10:18:21.662 INFO  -Error result field element is displayed
+2024-07-23 10:18:21.742 INFO  -Error result text retrieved: 19.21153846153846
+2024-07-23 10:18:21.742 INFO  -Expected result: 19.21153846153846, Actual result: 19.21153846153846
+2024-07-23 10:18:26.746 INFO  -Opening Firefox browser...
+2024-07-23 10:18:26.900 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:18:26.960 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:18:42.021 INFO  -FireFox browser opened successfully.
+2024-07-23 10:18:46.389 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:18:46.389 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (b5610b45-df0f-4b45-9118-788db8a63fa9)
+2024-07-23 10:18:46.390 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:18:46.390 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:18:46.390 INFO  -URL opened successfully.
+2024-07-23 10:18:46.393 INFO  -Entering number: 20
+2024-07-23 10:18:46.394 INFO  -Entering digit: 2
+2024-07-23 10:18:46.394 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:18:47.295 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:18:47.295 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:18:47.296 INFO  -Clicked number: 2
+2024-07-23 10:18:47.297 INFO  -Entering digit: 0
+2024-07-23 10:18:47.297 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:47.613 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:47.613 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:47.613 INFO  -Clicked number: 0
+2024-07-23 10:18:47.615 INFO  -User hitting operator:
+2024-07-23 10:18:47.624 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:18:47.942 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:18:47.942 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:18:47.950 INFO  -Clicked button: div
+2024-07-23 10:18:47.954 INFO  -Entering number: 100
+2024-07-23 10:18:47.954 INFO  -Entering digit: 1
+2024-07-23 10:18:47.955 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:18:48.257 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:18:48.257 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:18:48.257 INFO  -Clicked number: 1
+2024-07-23 10:18:48.257 INFO  -Entering digit: 0
+2024-07-23 10:18:48.257 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:48.570 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:48.571 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:48.571 INFO  -Clicked number: 0
+2024-07-23 10:18:48.571 INFO  -Entering digit: 0
+2024-07-23 10:18:48.590 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:49.212 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:49.231 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:18:49.231 INFO  -Clicked number: 0
+2024-07-23 10:18:49.268 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:18:49.663 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:18:49.663 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:18:49.663 INFO  -Clicked button: equals
+2024-07-23 10:18:49.667 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:18:49.689 INFO  -Attempting to retrieve error result...
+2024-07-23 10:18:49.689 INFO  -Checking if element is display
+2024-07-23 10:18:49.954 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (b5610b45-df0f-4b45-9118-788db8a63fa9)] -> xpath: //*[@id='result']]
+2024-07-23 10:18:49.955 INFO  -Error result field element is displayed
+2024-07-23 10:18:50.019 INFO  -Error result text retrieved: 0.2
+2024-07-23 10:18:50.020 INFO  -Expected result: 0.2, Actual result: 0.2
+2024-07-23 10:18:56.600 INFO  -Opening Firefox browser...
+2024-07-23 10:18:56.674 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:18:56.721 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:19:14.200 INFO  -FireFox browser opened successfully.
+2024-07-23 10:19:16.504 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:19:16.505 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (102b35a2-5c85-46d1-a09b-38e7effd9269)
+2024-07-23 10:19:16.505 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:19:16.505 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:19:16.506 INFO  -URL opened successfully.
+2024-07-23 10:19:16.509 INFO  -Entering number: 0
+2024-07-23 10:19:16.509 INFO  -Entering digit: 0
+2024-07-23 10:19:16.510 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:17.537 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:17.538 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:17.538 INFO  -Clicked number: 0
+2024-07-23 10:19:17.543 INFO  -User hitting operator:
+2024-07-23 10:19:17.547 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:19:17.835 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:19:17.835 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:19:17.835 INFO  -Clicked button: div
+2024-07-23 10:19:17.840 INFO  -Entering number: 0
+2024-07-23 10:19:17.840 INFO  -Entering digit: 0
+2024-07-23 10:19:17.841 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:18.206 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:18.209 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:18.211 INFO  -Clicked number: 0
+2024-07-23 10:19:18.220 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:19:18.583 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:19:18.583 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:19:18.583 INFO  -Clicked button: equals
+2024-07-23 10:19:18.584 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:19:18.599 INFO  -Attempting to retrieve error result...
+2024-07-23 10:19:18.599 INFO  -Checking if element is display
+2024-07-23 10:19:18.679 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (102b35a2-5c85-46d1-a09b-38e7effd9269)] -> xpath: //*[@id='result']]
+2024-07-23 10:19:18.679 INFO  -Error result field element is displayed
+2024-07-23 10:19:18.704 INFO  -Error result text retrieved: Bad Expression
+2024-07-23 10:19:18.705 INFO  -Expected result: Bad Expression, Actual result: Bad Expression
+2024-07-23 10:19:22.242 INFO  -Opening Firefox browser...
+2024-07-23 10:19:22.318 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:19:22.364 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:19:32.241 INFO  -FireFox browser opened successfully.
+2024-07-23 10:19:37.227 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:19:37.228 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (513a723f-4190-4cf9-a00d-36baae175e74)
+2024-07-23 10:19:37.229 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:19:37.229 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:19:37.229 INFO  -URL opened successfully.
+2024-07-23 10:19:37.230 INFO  -Entering number: -10
+2024-07-23 10:19:37.230 INFO  -Clicking subtraction button
+2024-07-23 10:19:37.233 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:19:38.188 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:19:38.189 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:19:38.189 INFO  -Clicked button: sub
+2024-07-23 10:19:38.189 INFO  -Entering digit: 1
+2024-07-23 10:19:38.189 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:19:38.454 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:19:38.455 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:19:38.455 INFO  -Clicked number: 1
+2024-07-23 10:19:38.457 INFO  -Entering digit: 0
+2024-07-23 10:19:38.458 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:38.727 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:38.727 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:19:38.728 INFO  -Clicked number: 0
+2024-07-23 10:19:38.735 INFO  -User hitting operator:
+2024-07-23 10:19:38.739 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:19:39.002 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:19:39.002 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:19:39.002 INFO  -Clicked button: div
+2024-07-23 10:19:39.054 INFO  -Entering number: -2
+2024-07-23 10:19:39.054 INFO  -Clicking subtraction button
+2024-07-23 10:19:39.063 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:19:39.335 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:19:39.335 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:19:39.335 INFO  -Clicked button: sub
+2024-07-23 10:19:39.335 INFO  -Entering digit: 2
+2024-07-23 10:19:39.335 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:19:39.607 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:19:39.608 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:19:39.608 INFO  -Clicked number: 2
+2024-07-23 10:19:39.627 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:19:39.906 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:19:39.907 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:19:39.907 INFO  -Clicked button: equals
+2024-07-23 10:19:39.919 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:19:39.934 INFO  -Attempting to retrieve result...
+2024-07-23 10:19:39.935 INFO  -Checking if element is display
+2024-07-23 10:19:40.381 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (513a723f-4190-4cf9-a00d-36baae175e74)] -> xpath: //*[@id='result']]
+2024-07-23 10:19:40.391 INFO  -Result field element is displayed
+2024-07-23 10:19:40.443 INFO  -Result text retrieved: 5
+2024-07-23 10:19:40.443 INFO  -Converted result to integer: 5
+2024-07-23 10:19:40.443 INFO  -Expected result: 5, Actual result: 5
+2024-07-23 10:19:46.453 INFO  -Opening Firefox browser...
+2024-07-23 10:19:46.612 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:19:46.662 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:20:03.248 INFO  -FireFox browser opened successfully.
+2024-07-23 10:20:08.506 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:20:08.507 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (fe2f376c-b262-47b2-82d6-70b1e624154e)
+2024-07-23 10:20:08.507 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:20:08.507 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:20:08.508 INFO  -URL opened successfully.
+2024-07-23 10:20:08.511 INFO  -Entering number: 0
+2024-07-23 10:20:08.511 INFO  -Entering digit: 0
+2024-07-23 10:20:08.512 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:09.518 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:09.525 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:09.525 INFO  -Clicked number: 0
+2024-07-23 10:20:09.528 INFO  -User hitting operator:
+2024-07-23 10:20:09.532 INFO  -Attempting to find element located by: By.xpath: //input[@value='/']
+2024-07-23 10:20:09.891 INFO  -Clicked element located by: By.xpath: //input[@value='/']
+2024-07-23 10:20:09.891 INFO  -Click operation completed for element located by: By.xpath: //input[@value='/']
+2024-07-23 10:20:09.892 INFO  -Clicked button: div
+2024-07-23 10:20:09.893 INFO  -Entering number: -99
+2024-07-23 10:20:09.893 INFO  -Clicking subtraction button
+2024-07-23 10:20:09.901 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:20:10.286 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:20:10.286 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:20:10.286 INFO  -Clicked button: sub
+2024-07-23 10:20:10.288 INFO  -Entering digit: 9
+2024-07-23 10:20:10.289 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:20:10.565 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:20:10.565 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:20:10.565 INFO  -Clicked number: 9
+2024-07-23 10:20:10.566 INFO  -Entering digit: 9
+2024-07-23 10:20:10.567 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:20:11.447 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:20:11.447 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:20:11.447 INFO  -Clicked number: 9
+2024-07-23 10:20:11.460 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:20:12.308 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:20:12.308 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:20:12.309 INFO  -Clicked button: equals
+2024-07-23 10:20:12.312 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:20:12.376 INFO  -Attempting to retrieve result...
+2024-07-23 10:20:12.377 INFO  -Checking if element is display
+2024-07-23 10:20:12.579 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (fe2f376c-b262-47b2-82d6-70b1e624154e)] -> xpath: //*[@id='result']]
+2024-07-23 10:20:12.579 INFO  -Result field element is displayed
+2024-07-23 10:20:12.679 INFO  -Result text retrieved: 0
+2024-07-23 10:20:12.680 INFO  -Converted result to integer: 0
+2024-07-23 10:20:12.680 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:20:27.440 INFO  -Opening Firefox browser...
+2024-07-23 10:20:27.569 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:20:27.625 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:20:48.274 INFO  -FireFox browser opened successfully.
+2024-07-23 10:20:54.356 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:20:54.356 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (770ce39f-0a81-407f-8ff4-d8f01e0a49c6)
+2024-07-23 10:20:54.357 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:20:54.358 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:20:54.358 INFO  -URL opened successfully.
+2024-07-23 10:20:54.359 INFO  -Entering number: 100
+2024-07-23 10:20:54.360 INFO  -Entering digit: 1
+2024-07-23 10:20:54.360 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:20:55.466 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:20:55.466 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:20:55.466 INFO  -Clicked number: 1
+2024-07-23 10:20:55.466 INFO  -Entering digit: 0
+2024-07-23 10:20:55.471 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:55.810 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:55.810 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:55.811 INFO  -Clicked number: 0
+2024-07-23 10:20:55.811 INFO  -Entering digit: 0
+2024-07-23 10:20:55.812 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:56.120 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:56.120 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:56.121 INFO  -Clicked number: 0
+2024-07-23 10:20:56.122 INFO  -User hitting operator:
+2024-07-23 10:20:56.125 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:20:56.424 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:20:56.424 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:20:56.424 INFO  -Clicked button: sub
+2024-07-23 10:20:56.427 INFO  -Entering number: 20
+2024-07-23 10:20:56.446 INFO  -Entering digit: 2
+2024-07-23 10:20:56.446 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:20:56.807 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:20:56.807 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:20:56.809 INFO  -Clicked number: 2
+2024-07-23 10:20:56.810 INFO  -Entering digit: 0
+2024-07-23 10:20:56.810 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:57.145 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:57.145 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:20:57.145 INFO  -Clicked number: 0
+2024-07-23 10:20:57.156 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:20:57.447 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:20:57.448 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:20:57.457 INFO  -Clicked button: equals
+2024-07-23 10:20:57.458 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:20:57.479 INFO  -Attempting to retrieve result...
+2024-07-23 10:20:57.479 INFO  -Checking if element is display
+2024-07-23 10:20:57.792 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (770ce39f-0a81-407f-8ff4-d8f01e0a49c6)] -> xpath: //*[@id='result']]
+2024-07-23 10:20:57.794 INFO  -Result field element is displayed
+2024-07-23 10:20:57.898 INFO  -Result text retrieved: 80
+2024-07-23 10:20:57.898 INFO  -Converted result to integer: 80
+2024-07-23 10:20:57.898 INFO  -Expected result: 80, Actual result: 80
+2024-07-23 10:21:02.126 INFO  -Opening Firefox browser...
+2024-07-23 10:21:02.222 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:21:02.281 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:21:11.947 INFO  -FireFox browser opened successfully.
+2024-07-23 10:21:14.260 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:21:14.261 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (b93e0e7a-1eb9-4025-b596-3b0e2b527b06)
+2024-07-23 10:21:14.261 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:21:14.261 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:21:14.261 INFO  -URL opened successfully.
+2024-07-23 10:21:14.263 INFO  -Entering number: 0
+2024-07-23 10:21:14.263 INFO  -Entering digit: 0
+2024-07-23 10:21:14.263 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:17.378 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:17.379 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:17.379 INFO  -Clicked number: 0
+2024-07-23 10:21:17.381 INFO  -User hitting operator:
+2024-07-23 10:21:17.387 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:21:17.873 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:21:17.873 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:21:17.874 INFO  -Clicked button: sub
+2024-07-23 10:21:17.874 INFO  -Entering number: 20000
+2024-07-23 10:21:17.875 INFO  -Entering digit: 2
+2024-07-23 10:21:17.875 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:21:18.243 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:21:18.243 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:21:18.260 INFO  -Clicked number: 2
+2024-07-23 10:21:18.261 INFO  -Entering digit: 0
+2024-07-23 10:21:18.261 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:18.925 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:18.925 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:18.925 INFO  -Clicked number: 0
+2024-07-23 10:21:18.925 INFO  -Entering digit: 0
+2024-07-23 10:21:18.925 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.206 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.207 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.207 INFO  -Clicked number: 0
+2024-07-23 10:21:19.207 INFO  -Entering digit: 0
+2024-07-23 10:21:19.207 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.489 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.489 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.490 INFO  -Clicked number: 0
+2024-07-23 10:21:19.490 INFO  -Entering digit: 0
+2024-07-23 10:21:19.490 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.763 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.763 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:21:19.763 INFO  -Clicked number: 0
+2024-07-23 10:21:19.777 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:21:20.041 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:21:20.041 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:21:20.042 INFO  -Clicked button: equals
+2024-07-23 10:21:20.042 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:21:20.054 INFO  -Attempting to retrieve result...
+2024-07-23 10:21:20.054 INFO  -Checking if element is display
+2024-07-23 10:21:20.173 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (b93e0e7a-1eb9-4025-b596-3b0e2b527b06)] -> xpath: //*[@id='result']]
+2024-07-23 10:21:20.173 INFO  -Result field element is displayed
+2024-07-23 10:21:20.366 INFO  -Result text retrieved: -20000
+2024-07-23 10:21:20.366 INFO  -Converted result to integer: -20000
+2024-07-23 10:21:20.369 INFO  -Expected result: -20000, Actual result: -20000
+2024-07-23 10:21:46.253 INFO  -Opening Firefox browser...
+2024-07-23 10:21:46.486 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:21:46.572 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:22:11.427 INFO  -FireFox browser opened successfully.
+2024-07-23 10:22:15.836 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:22:15.836 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (39cbf251-996e-4460-a1db-e2518af0ee78)
+2024-07-23 10:22:15.836 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:22:15.836 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:22:15.836 INFO  -URL opened successfully.
+2024-07-23 10:22:15.838 INFO  -Entering number: 100
+2024-07-23 10:22:15.839 INFO  -Entering digit: 1
+2024-07-23 10:22:15.840 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:22:17.483 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:22:17.483 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:22:17.483 INFO  -Clicked number: 1
+2024-07-23 10:22:17.484 INFO  -Entering digit: 0
+2024-07-23 10:22:17.484 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:17.747 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:17.747 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:17.747 INFO  -Clicked number: 0
+2024-07-23 10:22:17.747 INFO  -Entering digit: 0
+2024-07-23 10:22:17.748 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:18.038 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:18.056 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:18.057 INFO  -Clicked number: 0
+2024-07-23 10:22:18.059 INFO  -User hitting operator:
+2024-07-23 10:22:18.073 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:22:18.492 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:22:18.493 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:22:18.494 INFO  -Clicked button: sub
+2024-07-23 10:22:18.518 INFO  -Entering number: 20
+2024-07-23 10:22:18.519 INFO  -Entering digit: 2
+2024-07-23 10:22:18.519 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:22:19.153 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:22:19.154 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:22:19.154 INFO  -Clicked number: 2
+2024-07-23 10:22:19.154 INFO  -Entering digit: 0
+2024-07-23 10:22:19.154 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:19.459 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:19.459 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:19.459 INFO  -Clicked number: 0
+2024-07-23 10:22:19.481 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:22:19.997 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:22:19.997 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:22:19.997 INFO  -Clicked button: equals
+2024-07-23 10:22:19.998 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:22:20.009 INFO  -Attempting to retrieve result...
+2024-07-23 10:22:20.009 INFO  -Checking if element is display
+2024-07-23 10:22:20.303 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (39cbf251-996e-4460-a1db-e2518af0ee78)] -> xpath: //*[@id='result']]
+2024-07-23 10:22:20.304 INFO  -Result field element is displayed
+2024-07-23 10:22:20.446 INFO  -Result text retrieved: 80
+2024-07-23 10:22:20.446 INFO  -Converted result to integer: 80
+2024-07-23 10:22:20.446 INFO  -Expected result: 80, Actual result: 80
+2024-07-23 10:22:28.798 INFO  -Opening Firefox browser...
+2024-07-23 10:22:28.834 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:22:28.871 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:22:43.638 INFO  -FireFox browser opened successfully.
+2024-07-23 10:22:45.690 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:22:45.691 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (69c18e89-c6e6-447b-8e3b-6bee621649b9)
+2024-07-23 10:22:45.691 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:22:45.691 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:22:45.691 INFO  -URL opened successfully.
+2024-07-23 10:22:45.694 INFO  -Entering number: 0
+2024-07-23 10:22:45.694 INFO  -Entering digit: 0
+2024-07-23 10:22:45.695 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:47.077 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:47.077 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:47.077 INFO  -Clicked number: 0
+2024-07-23 10:22:47.078 INFO  -User hitting operator:
+2024-07-23 10:22:47.082 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:22:47.506 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:22:47.506 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:22:47.507 INFO  -Clicked button: sub
+2024-07-23 10:22:47.507 INFO  -Entering number: 0
+2024-07-23 10:22:47.508 INFO  -Entering digit: 0
+2024-07-23 10:22:47.508 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:47.809 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:47.810 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:22:47.810 INFO  -Clicked number: 0
+2024-07-23 10:22:47.857 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:22:48.316 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:22:48.317 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:22:48.317 INFO  -Clicked button: equals
+2024-07-23 10:22:48.318 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:22:48.356 INFO  -Attempting to retrieve result...
+2024-07-23 10:22:48.356 INFO  -Checking if element is display
+2024-07-23 10:22:48.648 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (69c18e89-c6e6-447b-8e3b-6bee621649b9)] -> xpath: //*[@id='result']]
+2024-07-23 10:22:48.648 INFO  -Result field element is displayed
+2024-07-23 10:22:48.738 INFO  -Result text retrieved: 0
+2024-07-23 10:22:48.738 INFO  -Converted result to integer: 0
+2024-07-23 10:22:48.739 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:22:55.233 INFO  -Opening Firefox browser...
+2024-07-23 10:22:55.271 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:22:55.331 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:23:08.498 INFO  -FireFox browser opened successfully.
+2024-07-23 10:23:10.041 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:23:10.042 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (4c1078f6-7402-43b2-b01c-6f6fa14cc5fd)
+2024-07-23 10:23:10.042 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:23:10.042 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:23:10.044 INFO  -URL opened successfully.
+2024-07-23 10:23:10.048 INFO  -Entering number: 0
+2024-07-23 10:23:10.048 INFO  -Entering digit: 0
+2024-07-23 10:23:10.048 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:10.888 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:10.889 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:10.889 INFO  -Clicked number: 0
+2024-07-23 10:23:10.893 INFO  -User hitting operator:
+2024-07-23 10:23:10.895 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:11.217 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:11.218 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:11.218 INFO  -Clicked button: sub
+2024-07-23 10:23:11.219 INFO  -Entering number: 0
+2024-07-23 10:23:11.219 INFO  -Entering digit: 0
+2024-07-23 10:23:11.220 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:11.527 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:11.528 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:11.528 INFO  -Clicked number: 0
+2024-07-23 10:23:11.537 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:11.831 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:11.831 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:11.832 INFO  -Clicked button: equals
+2024-07-23 10:23:11.835 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:23:11.869 INFO  -Attempting to retrieve result...
+2024-07-23 10:23:11.869 INFO  -Checking if element is display
+2024-07-23 10:23:12.101 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (4c1078f6-7402-43b2-b01c-6f6fa14cc5fd)] -> xpath: //*[@id='result']]
+2024-07-23 10:23:12.101 INFO  -Result field element is displayed
+2024-07-23 10:23:12.162 INFO  -Result text retrieved: 0
+2024-07-23 10:23:12.162 INFO  -Converted result to integer: 0
+2024-07-23 10:23:12.165 INFO  -Expected result: 0, Actual result: 0
+2024-07-23 10:23:15.571 INFO  -Opening Firefox browser...
+2024-07-23 10:23:16.205 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:23:16.296 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:23:24.368 INFO  -FireFox browser opened successfully.
+2024-07-23 10:23:25.632 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:23:25.633 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (25cfb376-7b60-4c5f-8acb-f08e3a8129fe)
+2024-07-23 10:23:25.633 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:23:25.633 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:23:25.633 INFO  -URL opened successfully.
+2024-07-23 10:23:25.644 INFO  -Entering number: 9999999
+2024-07-23 10:23:25.647 INFO  -Entering digit: 9
+2024-07-23 10:23:25.647 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.112 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.115 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.124 INFO  -Clicked number: 9
+2024-07-23 10:23:26.124 INFO  -Entering digit: 9
+2024-07-23 10:23:26.125 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.395 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.395 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.396 INFO  -Clicked number: 9
+2024-07-23 10:23:26.396 INFO  -Entering digit: 9
+2024-07-23 10:23:26.396 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.665 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.665 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.665 INFO  -Clicked number: 9
+2024-07-23 10:23:26.666 INFO  -Entering digit: 9
+2024-07-23 10:23:26.666 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.928 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.928 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:26.928 INFO  -Clicked number: 9
+2024-07-23 10:23:26.928 INFO  -Entering digit: 9
+2024-07-23 10:23:26.928 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.185 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.185 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.185 INFO  -Clicked number: 9
+2024-07-23 10:23:27.185 INFO  -Entering digit: 9
+2024-07-23 10:23:27.185 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.447 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.448 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.448 INFO  -Clicked number: 9
+2024-07-23 10:23:27.448 INFO  -Entering digit: 9
+2024-07-23 10:23:27.448 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.721 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.721 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:23:27.721 INFO  -Clicked number: 9
+2024-07-23 10:23:27.728 INFO  -User hitting operator:
+2024-07-23 10:23:27.733 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:28.023 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:28.023 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:28.023 INFO  -Clicked button: sub
+2024-07-23 10:23:28.027 INFO  -Entering number: 0
+2024-07-23 10:23:28.031 INFO  -Entering digit: 0
+2024-07-23 10:23:28.031 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:28.311 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:28.311 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:28.311 INFO  -Clicked number: 0
+2024-07-23 10:23:28.318 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:28.558 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:28.559 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:28.559 INFO  -Clicked button: equals
+2024-07-23 10:23:28.559 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:23:28.570 INFO  -Attempting to retrieve result...
+2024-07-23 10:23:28.571 INFO  -Checking if element is display
+2024-07-23 10:23:28.687 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (25cfb376-7b60-4c5f-8acb-f08e3a8129fe)] -> xpath: //*[@id='result']]
+2024-07-23 10:23:28.687 INFO  -Result field element is displayed
+2024-07-23 10:23:28.723 INFO  -Result text retrieved: 9999999
+2024-07-23 10:23:28.726 INFO  -Converted result to integer: 9999999
+2024-07-23 10:23:28.726 INFO  -Expected result: 9999999, Actual result: 9999999
+2024-07-23 10:23:33.191 INFO  -Opening Firefox browser...
+2024-07-23 10:23:33.283 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:23:33.326 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:23:43.944 INFO  -FireFox browser opened successfully.
+2024-07-23 10:23:45.722 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:23:45.723 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (f791c8fe-59c6-41a3-b9db-86f3a64de105)
+2024-07-23 10:23:45.723 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:23:45.724 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:23:45.724 INFO  -URL opened successfully.
+2024-07-23 10:23:45.729 INFO  -Entering number: -10
+2024-07-23 10:23:45.729 INFO  -Clicking subtraction button
+2024-07-23 10:23:45.734 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:47.060 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:47.060 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:47.061 INFO  -Clicked button: sub
+2024-07-23 10:23:47.061 INFO  -Entering digit: 1
+2024-07-23 10:23:47.062 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:23:47.332 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:23:47.333 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:23:47.334 INFO  -Clicked number: 1
+2024-07-23 10:23:47.334 INFO  -Entering digit: 0
+2024-07-23 10:23:47.334 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:47.590 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:47.590 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:23:47.590 INFO  -Clicked number: 0
+2024-07-23 10:23:47.592 INFO  -User hitting operator:
+2024-07-23 10:23:47.593 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:47.873 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:47.873 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:47.873 INFO  -Clicked button: sub
+2024-07-23 10:23:47.876 INFO  -Entering number: -5
+2024-07-23 10:23:47.876 INFO  -Clicking subtraction button
+2024-07-23 10:23:47.879 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:48.163 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:48.164 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:23:48.164 INFO  -Clicked button: sub
+2024-07-23 10:23:48.164 INFO  -Entering digit: 5
+2024-07-23 10:23:48.164 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:23:48.410 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:23:48.410 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:23:48.410 INFO  -Clicked number: 5
+2024-07-23 10:23:48.442 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:48.751 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:48.752 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:23:48.752 INFO  -Clicked button: equals
+2024-07-23 10:23:48.753 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:23:48.760 INFO  -Attempting to retrieve error result...
+2024-07-23 10:23:48.760 INFO  -Checking if element is display
+2024-07-23 10:23:48.851 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (f791c8fe-59c6-41a3-b9db-86f3a64de105)] -> xpath: //*[@id='result']]
+2024-07-23 10:23:48.851 INFO  -Error result field element is displayed
+2024-07-23 10:23:48.931 INFO  -Error result text retrieved: Invalid Expression
+2024-07-23 10:23:48.931 INFO  -Expected result: Invalid Expression, Actual result: Invalid Expression
+2024-07-23 10:23:54.157 INFO  -Opening Firefox browser...
+2024-07-23 10:23:54.310 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:23:54.355 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:24:02.273 INFO  -FireFox browser opened successfully.
+2024-07-23 10:24:03.241 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:24:03.241 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (bc7303b1-0129-46c0-aee5-a294360dfda9)
+2024-07-23 10:24:03.242 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:24:03.242 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:24:03.242 INFO  -URL opened successfully.
+2024-07-23 10:24:03.247 INFO  -Entering number: 50
+2024-07-23 10:24:03.249 INFO  -Entering digit: 5
+2024-07-23 10:24:03.250 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:04.278 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:04.279 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:04.279 INFO  -Clicked number: 5
+2024-07-23 10:24:04.279 INFO  -Entering digit: 0
+2024-07-23 10:24:04.279 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:24:04.537 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:24:04.537 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:24:04.540 INFO  -Clicked number: 0
+2024-07-23 10:24:04.543 INFO  -User hitting operator:
+2024-07-23 10:24:04.558 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:04.827 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:04.827 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:04.828 INFO  -Clicked button: sub
+2024-07-23 10:24:04.829 INFO  -Entering number: -20
+2024-07-23 10:24:04.829 INFO  -Clicking subtraction button
+2024-07-23 10:24:04.830 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:05.097 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:05.097 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:05.097 INFO  -Clicked button: sub
+2024-07-23 10:24:05.098 INFO  -Entering digit: 2
+2024-07-23 10:24:05.098 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:24:05.345 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:24:05.345 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:24:05.346 INFO  -Clicked number: 2
+2024-07-23 10:24:05.346 INFO  -Entering digit: 0
+2024-07-23 10:24:05.346 INFO  -Attempting to find element located by: By.xpath: //input[@value='0']
+2024-07-23 10:24:05.622 INFO  -Clicked element located by: By.xpath: //input[@value='0']
+2024-07-23 10:24:05.623 INFO  -Click operation completed for element located by: By.xpath: //input[@value='0']
+2024-07-23 10:24:05.623 INFO  -Clicked number: 0
+2024-07-23 10:24:05.625 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:24:05.878 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:24:05.879 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:24:05.880 INFO  -Clicked button: equals
+2024-07-23 10:24:05.882 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:24:05.901 INFO  -Attempting to retrieve error result...
+2024-07-23 10:24:05.901 INFO  -Checking if element is display
+2024-07-23 10:24:06.016 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (bc7303b1-0129-46c0-aee5-a294360dfda9)] -> xpath: //*[@id='result']]
+2024-07-23 10:24:06.017 INFO  -Error result field element is displayed
+2024-07-23 10:24:06.042 INFO  -Error result text retrieved: Invalid Expression
+2024-07-23 10:24:06.043 INFO  -Expected result: Invalid Expression, Actual result: Invalid Expression
+2024-07-23 10:24:09.025 INFO  -Opening Firefox browser...
+2024-07-23 10:24:09.054 INFO  -Using geckodriver 0.34.0 (resolved driver for Firefox 128)
+2024-07-23 10:24:09.094 INFO  -Exporting webdriver.gecko.driver as C:\Users\ADMIN\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-07-23 10:24:17.178 INFO  -FireFox browser opened successfully.
+2024-07-23 10:24:18.273 INFO  -Initializing CalculatorModule with WebDriver instance
+2024-07-23 10:24:18.273 INFO  -WebAction instance created with WebDriver: FirefoxDriver: firefox on windows (eef5218a-6cac-42f7-a521-3df86754064c)
+2024-07-23 10:24:18.273 INFO  -Initialized WebAction in CalculatorModule
+2024-07-23 10:24:18.273 INFO  -Initialized WebVerification in CalculatorModule
+2024-07-23 10:24:18.287 INFO  -URL opened successfully.
+2024-07-23 10:24:18.295 INFO  -Entering number: -125
+2024-07-23 10:24:18.296 INFO  -Clicking subtraction button
+2024-07-23 10:24:18.297 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:19.310 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:19.336 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:19.336 INFO  -Clicked button: sub
+2024-07-23 10:24:19.337 INFO  -Entering digit: 1
+2024-07-23 10:24:19.337 INFO  -Attempting to find element located by: By.xpath: //input[@value='1']
+2024-07-23 10:24:19.574 INFO  -Clicked element located by: By.xpath: //input[@value='1']
+2024-07-23 10:24:19.574 INFO  -Click operation completed for element located by: By.xpath: //input[@value='1']
+2024-07-23 10:24:19.574 INFO  -Clicked number: 1
+2024-07-23 10:24:19.574 INFO  -Entering digit: 2
+2024-07-23 10:24:19.574 INFO  -Attempting to find element located by: By.xpath: //input[@value='2']
+2024-07-23 10:24:19.807 INFO  -Clicked element located by: By.xpath: //input[@value='2']
+2024-07-23 10:24:19.807 INFO  -Click operation completed for element located by: By.xpath: //input[@value='2']
+2024-07-23 10:24:19.807 INFO  -Clicked number: 2
+2024-07-23 10:24:19.807 INFO  -Entering digit: 5
+2024-07-23 10:24:19.807 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:20.043 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:20.044 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:20.044 INFO  -Clicked number: 5
+2024-07-23 10:24:20.044 INFO  -User hitting operator:
+2024-07-23 10:24:20.045 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:20.323 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:20.324 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:20.324 INFO  -Clicked button: sub
+2024-07-23 10:24:20.329 INFO  -Entering number: -7895
+2024-07-23 10:24:20.329 INFO  -Clicking subtraction button
+2024-07-23 10:24:20.332 INFO  -Attempting to find element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:20.866 INFO  -Clicked element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:20.866 INFO  -Click operation completed for element located by: By.xpath: //input[@value='-']
+2024-07-23 10:24:20.866 INFO  -Clicked button: sub
+2024-07-23 10:24:20.866 INFO  -Entering digit: 7
+2024-07-23 10:24:20.866 INFO  -Attempting to find element located by: By.xpath: //input[@value='7']
+2024-07-23 10:24:21.178 INFO  -Clicked element located by: By.xpath: //input[@value='7']
+2024-07-23 10:24:21.179 INFO  -Click operation completed for element located by: By.xpath: //input[@value='7']
+2024-07-23 10:24:21.179 INFO  -Clicked number: 7
+2024-07-23 10:24:21.179 INFO  -Entering digit: 8
+2024-07-23 10:24:21.179 INFO  -Attempting to find element located by: By.xpath: //input[@value='8']
+2024-07-23 10:24:21.429 INFO  -Clicked element located by: By.xpath: //input[@value='8']
+2024-07-23 10:24:21.430 INFO  -Click operation completed for element located by: By.xpath: //input[@value='8']
+2024-07-23 10:24:21.430 INFO  -Clicked number: 8
+2024-07-23 10:24:21.430 INFO  -Entering digit: 9
+2024-07-23 10:24:21.430 INFO  -Attempting to find element located by: By.xpath: //input[@value='9']
+2024-07-23 10:24:21.665 INFO  -Clicked element located by: By.xpath: //input[@value='9']
+2024-07-23 10:24:21.665 INFO  -Click operation completed for element located by: By.xpath: //input[@value='9']
+2024-07-23 10:24:21.665 INFO  -Clicked number: 9
+2024-07-23 10:24:21.666 INFO  -Entering digit: 5
+2024-07-23 10:24:21.666 INFO  -Attempting to find element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:21.902 INFO  -Clicked element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:21.903 INFO  -Click operation completed for element located by: By.xpath: //input[@value='5']
+2024-07-23 10:24:21.903 INFO  -Clicked number: 5
+2024-07-23 10:24:21.905 INFO  -Attempting to find element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:24:22.158 INFO  -Clicked element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:24:22.158 INFO  -Click operation completed for element located by: By.xpath: //input[@value ='=']
+2024-07-23 10:24:22.159 INFO  -Clicked button: equals
+2024-07-23 10:24:22.160 INFO  -Attempting to find element located by: By.xpath: //*[@id='result']
+2024-07-23 10:24:22.170 INFO  -Attempting to retrieve error result...
+2024-07-23 10:24:22.170 INFO  -Checking if element is display
+2024-07-23 10:24:22.219 INFO  -Result obtained: {}[[FirefoxDriver: firefox on windows (eef5218a-6cac-42f7-a521-3df86754064c)] -> xpath: //*[@id='result']]
+2024-07-23 10:24:22.219 INFO  -Error result field element is displayed
+2024-07-23 10:24:22.248 INFO  -Error result text retrieved: Invalid Expression
+2024-07-23 10:24:22.249 INFO  -Expected result: Invalid Expression, Actual result: Invalid Expression

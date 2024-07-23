@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 18, 2024 04:22:19 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 23, 2024 09:59:43 AM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -71,7 +76,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,31 +84,31 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@minus</a><a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@divide</a><a class="dropdown-item" href="#">@plus</a><a class="dropdown-item" href="#">@multiply</a><a class="dropdown-item" href="#">@equals</a>
+<a class="dropdown-item" href="#">@add_positive</a><a class="dropdown-item" href="#">@multiply_negative_positive</a><a class="dropdown-item" href="#">@sub_positive</a><a class="dropdown-item" href="#">@sub_negative</a><a class="dropdown-item" href="#">@add_interfering</a><a class="dropdown-item" href="#">@multiply_Positive</a><a class="dropdown-item" href="#">@div_positive</a><a class="dropdown-item" href="#">@div_negative</a><a class="dropdown-item" href="#">@sanity</a><a class="dropdown-item" href="#">@sub_both</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Verify Arithmetic Signs</p>
+            <p class="name">Addition of Numbers</p>
             <p class="text-sm">
-              <span>4:22:22 PM</span> / <span>00:01:18:970</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>9:59:49 AM</span> / <span>00:05:48:126</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Verify Arithmetic Signs</h5>
-<span class='badge badge-success'>07.18.2024 4:22:22 PM</span>
-<span class='badge badge-danger'>07.18.2024 4:23:41 PM</span>
-<span class='badge badge-default'>00:01:18:970</span>
+<h5 class="test-status text-fail">Addition of Numbers</h5>
+<span class='badge badge-success'>07.23.2024 9:59:49 AM</span>
+<span class='badge badge-danger'>07.23.2024 10:05:37 AM</span>
+<span class='badge badge-default'>00:05:48:126</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -115,131 +120,1769 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify if the arithmetic sign "+" is visible and clickable</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform addition for two interfering number for <TestcaseName></div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdef.StepDef.the_calculator_application_is_open()">
-                <span>Given the calculator application is open</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform addition for two interfering number for For 555 and 666</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.the_user_looks_at_the_plus_sign()">
-                <span>When the user looks at the plus sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 555 interfering number</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.the_user_should_see_and_be_able_to_click_the_plus_sign()">
-                <span>Then the user should see and be able to click the plus sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
       <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 666 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 1221 should be display</span>
+      <div>
+      </div>
+                  </div>
               </div>
-          </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform addition for two interfering number for For 7777 and 0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 7777 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 0 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 7777 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform addition for two interfering number for For 0 and 2222</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 0 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 2222 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 2222 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform addition for two interfering number for For 0 and 0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 0 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 0 interfering number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Verify if the arithmetic sign "-" is visible and clickable</div>
+        <div class="node" id="35"><span class="badge log fail-bg mr-2">Fail</span>To verify if the calculator can correctly add two Positive numbers for <TestcaseName></div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdef.StepDef.the_calculator_application_is_open()">
-                <span>Given the calculator application is open</span>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly add two Positive numbers for for 10 and 20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserLooksAtTheMinusSign()">
-                <span>When the user looks at the minus sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 10 number</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserShouldSeeAndBeAbleToClickTheMinusSign()">
-                <span>Then the user should see and be able to click the minus sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
       <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 30 should be display</span>
+      <div>
+      </div>
+                  </div>
               </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="44"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly add two Positive numbers for for 20 and 5</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 5 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 25 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly add two Positive numbers for for 55 and 55</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 55 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 55 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 110 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="60"><span class="badge log fail-bg mr-2">Fail</span>To verify if the calculator can correctly add two Positive numbers for for 175 and 5</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 175 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "+" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 5 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 180 should be display</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [68ff9fc0-6db8-4c9f-8e92-976a74d44485, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:15653, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 11752, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15653/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 68ff9fc0-6db8-4c9f-8e92-976a74d44485
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:363)
+	at stepdef.StepDef.tearDown(StepDef.java:170)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:363)
+	at stepdef.StepDef.tearDown(StepDef.java:170)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:183)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:117)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:148)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
           </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="68"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Multiplication of Integer Numbers</p>
+            <p class="text-sm">
+              <span>10:05:39 AM</span> / <span>00:07:36:632</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Multiplication of Integer Numbers</h5>
+<span class='badge badge-success'>07.23.2024 10:05:39 AM</span>
+<span class='badge badge-danger'>07.23.2024 10:13:15 AM</span>
+<span class='badge badge-default'>00:07:36:632</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=68</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="69"><span class="badge log fail-bg mr-2">Fail</span>To Verify the calculator can perform the multiplication of two integer numbers <TestcaseName></div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="70"><span class="badge log pass-bg mr-2">Pass</span>To Verify the calculator can perform the multiplication of two integer numbers For 100 and 20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 10 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 200 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="78"><span class="badge log fail-bg mr-2">Fail</span>To Verify the calculator can perform the multiplication of two integer numbers For 0 and 20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [218dfcd0-8f99-427f-8c5d-ade608968843, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:17777, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13408, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:17777/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 218dfcd0-8f99-427f-8c5d-ade608968843
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:363)
+	at stepdef.StepDef.tearDown(StepDef.java:170)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:363)
+	at stepdef.StepDef.tearDown(StepDef.java:170)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:183)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:117)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:148)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="86"><span class="badge log pass-bg mr-2">Pass</span>To Verify the calculator can perform the multiplication of two integer numbers For 99999 and 0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 99999 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Verify if the arithmetic sign "*" is visible and clickable</div>
+        <div class="node" id="94"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly multiply a negative number with a positive number <TestcaseName></div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdef.StepDef.the_calculator_application_is_open()">
-                <span>Given the calculator application is open</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="95"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly multiply a negative number with a positive number For 10 and -5</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserLooksAtTheMultiplySign()">
-                <span>When the user looks at the multiply sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 10 number</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserShouldSeeAndBeAbleToClickTheMultiplySign()">
-                <span>Then the user should see and be able to click the multiply sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
       <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -5 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result -50 should be display</span>
+      <div>
+      </div>
+                  </div>
               </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="103"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly multiply a negative number with a positive number For -510 and -5</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -510 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -5 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 2550 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="111"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly multiply a negative number with a positive number For -0 and -0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result -0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="119"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly multiply a negative number with a positive number For 0 and -9999</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "*" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -9999 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
           </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="127"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Division of Integer Numbers</p>
+            <p class="text-sm">
+              <span>10:13:15 AM</span> / <span>00:07:11:332</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Division of Integer Numbers</h5>
+<span class='badge badge-success'>07.23.2024 10:13:15 AM</span>
+<span class='badge badge-danger'>07.23.2024 10:20:27 AM</span>
+<span class='badge badge-default'>00:07:11:332</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=127</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="128"><span class="badge log fail-bg mr-2">Fail</span>To verify if the calculator can correctly divide two integer numbers <TestcaseName></div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="129"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly divide two integer numbers For 100 and 20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 100 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 5 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="137"><span class="badge log fail-bg mr-2">Fail</span>To verify if the calculator can correctly divide two integer numbers For 0 and 1</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+        <textarea disabled class="code-block">org.exception.InvalidBrowserException: Unsupported browser detected: Could not start a new session. Response code 500. Message: Failed to read marionette port 
+Host info: host: 'DESKTOP-6J33AR0', ip: '172.24.96.1'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--headless]}}]}]
+	at stepdef.StepDef.the_calculator_application_is_open(StepDef.java:39)
+	at ✽.the calculator application is open(file:///E:/Tech_Elliptica_Calculator/features/divide.feature:3)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When the user enters the 0 number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user hit "/" operator</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And the user enters the 1 number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>Verify if the arithmetic sign "/" is visible and clickable</div>
+        <div class="node" id="145"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly provide not-number divide two integer numbers <TestcaseName></div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdef.StepDef.the_calculator_application_is_open()">
-                <span>Given the calculator application is open</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="146"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly provide not-number divide two integer numbers For 100 and 0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserLooksAtTheDivideSign()">
-                <span>When the user looks at the divide sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 100 number</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserShouldSeeAndBeAbleToClickTheDivideSign()">
-                <span>Then the user should see and be able to click the divide sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
       <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "Infinity" should be display</span>
+      <div>
+      </div>
+                  </div>
               </div>
-          </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="154"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly provide not-number divide two integer numbers For 99999 and 0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 99999 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "Infinity" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="162"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly provide not-number divide two integer numbers For 999 and 52</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 999 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 52 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "19.21153846153846" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="170"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly provide not-number divide two integer numbers For 20 and 100</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 100 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "0.2" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="178"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly provide not-number divide two integer numbers For -0 and -0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "Bad Expression" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>Verify if the arithmetic sign "=" is visible and clickable</div>
+        <div class="node" id="186"><span class="badge log pass-bg mr-2">Pass</span>Verify that the calculator can correctly divide two negative numbers <TestcaseName></div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdef.StepDef.the_calculator_application_is_open()">
-                <span>Given the calculator application is open</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="187"><span class="badge log pass-bg mr-2">Pass</span>Verify that the calculator can correctly divide two negative numbers For -10 and -2</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserLooksAtTheEqualsSign()">
-                <span>When the user looks at the equals sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -10 number</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepdef.StepDef.theUserShouldSeeAndBeAbleToClickTheEqualsSign()">
-                <span>Then the user should see and be able to click the equals sign</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
       <div>
       </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -2 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 5 should be display</span>
+      <div>
+      </div>
+                  </div>
               </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="195"><span class="badge log pass-bg mr-2">Pass</span>Verify that the calculator can correctly divide two negative numbers For -0 and -99</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "/" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -99 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
           </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="203"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Subtraction of Integer Numbers</p>
+            <p class="text-sm">
+              <span>10:20:27 AM</span> / <span>00:03:58:040</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Subtraction of Integer Numbers</h5>
+<span class='badge badge-success'>07.23.2024 10:20:27 AM</span>
+<span class='badge badge-danger'>07.23.2024 10:24:25 AM</span>
+<span class='badge badge-default'>00:03:58:040</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=203</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="204"><span class="badge log fail-bg mr-2">Fail</span>To verify if the calculator can correctly subtraction of two Positive numbers <TestcaseName></div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="205"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 100 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 80 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="213"><span class="badge log fail-bg mr-2">Fail</span>To verify if the calculator can correctly subtraction of two Positive numbers For 0 and 20000</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20000 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result -20000 should be display</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b93e0e7a-1eb9-4025-b596-3b0e2b527b06, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:4330, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 7156, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:4330/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b93e0e7a-1eb9-4025-b596-3b0e2b527b06
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:363)
+	at stepdef.StepDef.tearDown(StepDef.java:170)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:363)
+	at stepdef.StepDef.tearDown(StepDef.java:170)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:183)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:117)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:148)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="221"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 100 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the 20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 80 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="229"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform subtraction for two negative numbers <TestcaseName></div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="230"><span class="badge log pass-bg mr-2">Pass</span>Check whether the calculator can perform subtraction for two negative numbers For -0 and -0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result -0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="238"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number <TestcaseName></div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="239"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number For 0 and -0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 0 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="247"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number For 9999999 and -0</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 9999999 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -0 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result 9999999 should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="255"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number <TestcaseName></div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="256"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number For -10 and -5</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -10 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -5 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "Invalid Expression" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="264"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number For 50 and -20</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the 50 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -20 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "Invalid Expression" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="272"><span class="badge log pass-bg mr-2">Pass</span>To verify if the calculator can correctly subtract a Positive number from a Negative number For -125 and -7895</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the calculator application is open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters the -125 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user hit "-" operator</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters the -7895 number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user hit the equals "=" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the result "Invalid Expression" should be display</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
 </div>
@@ -254,25 +1897,325 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@minus</p>
+<p class="name">org.exception.InvalidBrowserException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@minus</h4>
+<h4>org.exception.InvalidBrowserException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:13:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='138'>Given the calculator application is open</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly divide two integer numbers For 0 and 1.Given the calculator application is open</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.openqa.selenium.WebDriverException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.WebDriverException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:05:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='67'>stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 175 and 5.stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:08:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='85'>stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 0 and 20.stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:21:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='220'>stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 0 and 20000.stepdef.StepDef.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">10</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@add_positive</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@add_positive</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:02:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>To verify if the calculator can correctly add two Positive numbers for for 10 and 20</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 10 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:02:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>To verify if the calculator can correctly add two Positive numbers for for 20 and 5</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 20 and 5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:03:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>To verify if the calculator can correctly add two Positive numbers for for 55 and 55</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 55 and 55</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='60'>To verify if the calculator can correctly add two Positive numbers for for 175 and 5</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 175 and 5</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@multiply_negative_positive</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@multiply_negative_positive</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:09:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='95'>To verify if the calculator can correctly multiply a negative number with a positive number For 10 and -5</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For 10 and -5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:10:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='103'>To verify if the calculator can correctly multiply a negative number with a positive number For -510 and -5</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For -510 and -5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:11:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='111'>To verify if the calculator can correctly multiply a negative number with a positive number For -0 and -0</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For -0 and -0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='119'>To verify if the calculator can correctly multiply a negative number with a positive number For 0 and -9999</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For 0 and -9999</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@sub_positive</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sub_positive</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:20:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='205'>To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:21:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='213'>To verify if the calculator can correctly subtraction of two Positive numbers For 0 and 20000</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 0 and 20000</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:21:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='221'>To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@sub_negative</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sub_negative</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -286,11 +2229,637 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:22:53 PM</td>
+<td>10:22:28 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='7'>Verify if the arithmetic sign "-" is visible and clickable</a>
+<a href="#" class="linked" test-id='203' id='230'>Check whether the calculator can perform subtraction for two negative numbers For -0 and -0</a>
 <div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "-" is visible and clickable</span>
+<span class="badge badge-default">Subtraction of Integer Numbers.Check whether the calculator can perform subtraction for two negative numbers For -0 and -0</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@add_interfering</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@add_interfering</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:59:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Check whether the calculator can perform addition for two interfering number for For 555 and 666</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 555 and 666</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Check whether the calculator can perform addition for two interfering number for For 7777 and 0</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 7777 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:01:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Check whether the calculator can perform addition for two interfering number for For 0 and 2222</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 0 and 2222</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:01:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>Check whether the calculator can perform addition for two interfering number for For 0 and 0</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 0 and 0</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@multiply_Positive</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@multiply_Positive</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:05:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='70'>To Verify the calculator can perform the multiplication of two integer numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:07:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='78'>To Verify the calculator can perform the multiplication of two integer numbers For 0 and 20</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 0 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:09:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='86'>To Verify the calculator can perform the multiplication of two integer numbers For 99999 and 0</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 99999 and 0</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@div_positive</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@div_positive</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:15 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='129'>To verify if the calculator can correctly divide two integer numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly divide two integer numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:13:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='137'>To verify if the calculator can correctly divide two integer numbers For 0 and 1</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly divide two integer numbers For 0 and 1</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='146'>To verify if the calculator can correctly provide not-number divide two integer numbers For 100 and 0</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 100 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:17:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='154'>To verify if the calculator can correctly provide not-number divide two integer numbers For 99999 and 0</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 99999 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='162'>To verify if the calculator can correctly provide not-number divide two integer numbers For 999 and 52</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 999 and 52</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='170'>To verify if the calculator can correctly provide not-number divide two integer numbers For 20 and 100</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 20 and 100</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='178'>To verify if the calculator can correctly provide not-number divide two integer numbers For -0 and -0</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For -0 and -0</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@div_negative</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@div_negative</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:19:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='187'>Verify that the calculator can correctly divide two negative numbers For -10 and -2</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.Verify that the calculator can correctly divide two negative numbers For -10 and -2</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='195'>Verify that the calculator can correctly divide two negative numbers For -0 and -99</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.Verify that the calculator can correctly divide two negative numbers For -0 and -99</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>29</span>
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@sanity</p>
+<p class="duration text-sm">33 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sanity</h4>
+<span status="pass" class='badge log pass-bg'>29 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:59:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Check whether the calculator can perform addition for two interfering number for For 555 and 666</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 555 and 666</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Check whether the calculator can perform addition for two interfering number for For 7777 and 0</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 7777 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:01:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Check whether the calculator can perform addition for two interfering number for For 0 and 2222</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 0 and 2222</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:01:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>Check whether the calculator can perform addition for two interfering number for For 0 and 0</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.Check whether the calculator can perform addition for two interfering number for For 0 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:02:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>To verify if the calculator can correctly add two Positive numbers for for 10 and 20</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 10 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:02:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>To verify if the calculator can correctly add two Positive numbers for for 20 and 5</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 20 and 5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:03:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>To verify if the calculator can correctly add two Positive numbers for for 55 and 55</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 55 and 55</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:04:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='60'>To verify if the calculator can correctly add two Positive numbers for for 175 and 5</a>
+<div class="">
+<span class="badge badge-default">Addition of Numbers.To verify if the calculator can correctly add two Positive numbers for for 175 and 5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:05:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='70'>To Verify the calculator can perform the multiplication of two integer numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:07:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='78'>To Verify the calculator can perform the multiplication of two integer numbers For 0 and 20</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 0 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:09:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='86'>To Verify the calculator can perform the multiplication of two integer numbers For 99999 and 0</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To Verify the calculator can perform the multiplication of two integer numbers For 99999 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:09:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='95'>To verify if the calculator can correctly multiply a negative number with a positive number For 10 and -5</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For 10 and -5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:10:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='103'>To verify if the calculator can correctly multiply a negative number with a positive number For -510 and -5</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For -510 and -5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:11:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='111'>To verify if the calculator can correctly multiply a negative number with a positive number For -0 and -0</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For -0 and -0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='119'>To verify if the calculator can correctly multiply a negative number with a positive number For 0 and -9999</a>
+<div class="">
+<span class="badge badge-default">Multiplication of Integer Numbers.To verify if the calculator can correctly multiply a negative number with a positive number For 0 and -9999</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:15 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='129'>To verify if the calculator can correctly divide two integer numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly divide two integer numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:13:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='137'>To verify if the calculator can correctly divide two integer numbers For 0 and 1</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly divide two integer numbers For 0 and 1</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='146'>To verify if the calculator can correctly provide not-number divide two integer numbers For 100 and 0</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 100 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:17:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='154'>To verify if the calculator can correctly provide not-number divide two integer numbers For 99999 and 0</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 99999 and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='162'>To verify if the calculator can correctly provide not-number divide two integer numbers For 999 and 52</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 999 and 52</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='170'>To verify if the calculator can correctly provide not-number divide two integer numbers For 20 and 100</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For 20 and 100</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:18:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='178'>To verify if the calculator can correctly provide not-number divide two integer numbers For -0 and -0</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.To verify if the calculator can correctly provide not-number divide two integer numbers For -0 and -0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:19:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='187'>Verify that the calculator can correctly divide two negative numbers For -10 and -2</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.Verify that the calculator can correctly divide two negative numbers For -10 and -2</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='127' id='195'>Verify that the calculator can correctly divide two negative numbers For -0 and -99</a>
+<div class="">
+<span class="badge badge-default">Division of Integer Numbers.Verify that the calculator can correctly divide two negative numbers For -0 and -99</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:20:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='205'>To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:21:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='213'>To verify if the calculator can correctly subtraction of two Positive numbers For 0 and 20000</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 0 and 20000</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:21:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='221'>To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtraction of two Positive numbers For 100 and 20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:22:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='230'>Check whether the calculator can perform subtraction for two negative numbers For -0 and -0</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.Check whether the calculator can perform subtraction for two negative numbers For -0 and -0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:22:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='239'>To verify if the calculator can correctly subtract a Positive number from a Negative number For 0 and -0</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For 0 and -0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:15 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='247'>To verify if the calculator can correctly subtract a Positive number from a Negative number For 9999999 and -0</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For 9999999 and -0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='256'>To verify if the calculator can correctly subtract a Positive number from a Negative number For -10 and -5</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For -10 and -5</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:23:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='264'>To verify if the calculator can correctly subtract a Positive number from a Negative number For 50 and -20</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For 50 and -20</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:24:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='203' id='272'>To verify if the calculator can correctly subtract a Positive number from a Negative number For -125 and -7895</a>
+<div class="">
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For -125 and -7895</span>
 </div>
 </td>
 </tr>
@@ -303,12 +2872,12 @@
 <span class="meta">
 <span class='badge log pass-bg'>5</span>
 </span>
-<p class="name">@smoke</p>
+<p class="name">@sub_both</p>
 <p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@smoke</h4>
+<h4>@sub_both</h4>
 <span status="pass" class='badge log pass-bg'>5 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -322,195 +2891,51 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:22:22 PM</td>
+<td>10:22:55 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Verify if the arithmetic sign "+" is visible and clickable</a>
+<a href="#" class="linked" test-id='203' id='239'>To verify if the calculator can correctly subtract a Positive number from a Negative number For 0 and -0</a>
 <div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "+" is visible and clickable</span>
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For 0 and -0</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:22:53 PM</td>
+<td>10:23:15 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='7'>Verify if the arithmetic sign "-" is visible and clickable</a>
+<a href="#" class="linked" test-id='203' id='247'>To verify if the calculator can correctly subtract a Positive number from a Negative number For 9999999 and -0</a>
 <div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "-" is visible and clickable</span>
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For 9999999 and -0</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:23:06 PM</td>
+<td>10:23:33 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='12'>Verify if the arithmetic sign "*" is visible and clickable</a>
+<a href="#" class="linked" test-id='203' id='256'>To verify if the calculator can correctly subtract a Positive number from a Negative number For -10 and -5</a>
 <div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "*" is visible and clickable</span>
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For -10 and -5</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:23:18 PM</td>
+<td>10:23:54 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='17'>Verify if the arithmetic sign "/" is visible and clickable</a>
+<a href="#" class="linked" test-id='203' id='264'>To verify if the calculator can correctly subtract a Positive number from a Negative number For 50 and -20</a>
 <div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "/" is visible and clickable</span>
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For 50 and -20</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:23:28 PM</td>
+<td>10:24:09 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='22'>Verify if the arithmetic sign "=" is visible and clickable</a>
+<a href="#" class="linked" test-id='203' id='272'>To verify if the calculator can correctly subtract a Positive number from a Negative number For -125 and -7895</a>
 <div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "=" is visible and clickable</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@divide</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@divide</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:23:18 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='17'>Verify if the arithmetic sign "/" is visible and clickable</a>
-<div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "/" is visible and clickable</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@plus</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@plus</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:22:22 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>Verify if the arithmetic sign "+" is visible and clickable</a>
-<div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "+" is visible and clickable</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@multiply</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@multiply</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:23:06 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='12'>Verify if the arithmetic sign "*" is visible and clickable</a>
-<div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "*" is visible and clickable</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@equals</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@equals</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:23:28 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='22'>Verify if the arithmetic sign "=" is visible and clickable</a>
-<div class="">
-<span class="badge badge-default">Verify Arithmetic Signs.Verify if the arithmetic sign "=" is visible and clickable</span>
+<span class="badge badge-default">Subtraction of Integer Numbers.To verify if the calculator can correctly subtract a Positive number from a Negative number For -125 and -7895</span>
 </div>
 </td>
 </tr>
@@ -531,25 +2956,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 18, 2024 04:22:19 PM</h3>
+<h3>Jul 23, 2024 09:59:43 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 18, 2024 04:23:41 PM</h3>
+<h3>Jul 23, 2024 10:24:25 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>4</h3>
 </div></div>
 </div>
 </div>
@@ -565,12 +2990,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>4</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -588,9 +3013,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>5</b> scenarios passed</small></div>
+<div><small data-tooltip='87%'><b>29</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='12%'><b>4</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -608,10 +3033,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>15</b> steps passed</small></div>
+<div><small data-tooltip='95%'><b>192</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='1%'><b>4</b> steps failed,
+<b>5</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -627,7 +3052,7 @@
 </div></div>
 <script>
 var timeline = {
-"Verify Arithmetic Signs":78.97
+"Addition of Numbers":348.126,"Multiplication of Integer Numbers":456.632,"Division of Integer Numbers":431.332,"Subtraction of Integer Numbers":238.04
 };
 </script>
 <div class="row">
@@ -637,7 +3062,31 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@minus</td>
+<td>@add_positive</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>@multiply_negative_positive</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@sub_positive</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@sub_negative</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -645,40 +3094,48 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@smoke</td>
+<td>@add_interfering</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@multiply_Positive</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@div_positive</td>
+<td>6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>85.714%</td>
+</tr>
+<tr>
+<td>@div_negative</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@sanity</td>
+<td>29</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>87.879%</td>
+</tr>
+<tr>
+<td>@sub_both</td>
 <td>5</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@divide</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@plus</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@multiply</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@equals</td>
-<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -715,21 +3172,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 4,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 5,
-failChild: 0,
+passChild: 29,
+failChild: 4,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 15,
-failGrandChild: 0,
+passGrandChild: 192,
+failGrandChild: 4,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 5,
 infoGrandChild: 0,
 eventsCount: 5,
 };

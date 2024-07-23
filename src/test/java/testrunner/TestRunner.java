@@ -11,7 +11,7 @@ import java.util.logging.Logger;
         features = "features",
         glue = "stepdef",
         dryRun = false,
-        tags = "@smoke",
+        tags = "@sanity",
         plugin = { "pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         }
