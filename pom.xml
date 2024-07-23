@@ -144,7 +144,6 @@
                 <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>${suiteXmlFiles}</suiteXmlFiles>
-                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
         </plugins>
