@@ -7,12 +7,10 @@
     <groupId>org.example</groupId>
     <artifactId>Tech_Elliptica_Calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <suiteXmlFiles>testng.xml</suiteXmlFiles>
     </properties>
     <dependencies>
         <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
@@ -119,13 +117,7 @@
             <version>24.1.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.3.1</version>
-            <type>maven-plugin</type>
-        </dependency>
-    </dependencies>
+         </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -136,14 +128,6 @@
                     <source>14</source>
                     <target>14</target>
                     <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-                <configuration>
-                    <suiteXmlFiles>${suiteXmlFiles}</suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
