@@ -12,6 +12,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <suiteXmlFiles>testng.xml</suiteXmlFiles>
     </properties>
     <dependencies>
         <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
@@ -142,6 +143,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
+                    <suiteXmlFiles>${suiteXmlFiles}</suiteXmlFiles>
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>
